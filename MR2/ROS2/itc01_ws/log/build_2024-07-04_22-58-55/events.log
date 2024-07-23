@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (-) JobUnselected: {'identifier': 'buffalo_robot'}
+[0.001630] (-) JobUnselected: {'identifier': 'yolobot_recognition'}
+[0.001711] (-) JobUnselected: {'identifier': 'yolov8_msgs'}
+[0.001789] (mr2_realsense) JobQueued: {'identifier': 'mr2_realsense', 'dependencies': OrderedDict()}
+[0.001872] (mr2_realsense) JobStarted: {'identifier': 'mr2_realsense'}
+[0.099664] (-) TimerEvent: {}
+[0.201263] (-) TimerEvent: {}
+[0.301961] (-) TimerEvent: {}
+[0.402708] (-) TimerEvent: {}
+[0.503400] (-) TimerEvent: {}
+[0.604157] (-) TimerEvent: {}
+[0.704907] (-) TimerEvent: {}
+[0.805605] (-) TimerEvent: {}
+[0.907609] (-) TimerEvent: {}
+[1.011188] (-) TimerEvent: {}
+[1.112516] (-) TimerEvent: {}
+[1.213177] (-) TimerEvent: {}
+[1.313837] (-) TimerEvent: {}
+[1.414505] (-) TimerEvent: {}
+[1.515157] (-) TimerEvent: {}
+[1.615827] (-) TimerEvent: {}
+[1.716480] (-) TimerEvent: {}
+[1.817180] (-) TimerEvent: {}
+[1.917889] (-) TimerEvent: {}
+[2.018549] (-) TimerEvent: {}
+[2.119215] (-) TimerEvent: {}
+[2.219986] (-) TimerEvent: {}
+[2.271751] (mr2_realsense) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/mr2_realsense', 'build', '--build-base', '/home/jsagx-6/itc01_ws/build/mr2_realsense/build', 'install', '--record', '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log', '--install-scripts', '$base/lib/mr2_realsense', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jsagx-6', 'SSH_AGENT_PID': '3727', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jsagx-6', 'OLDPWD': '/home/jsagx-6', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.5.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'Jetson-AGX', 'MANAGERPID': '3626', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6244', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jsagx-6', 'JETSON_MODULE': 'NVIDIA Jetson AGX Xavier (32 GB ram)', 'JETSON_SERIAL_NUMBER': '1561221004404', 'JOURNAL_STREAM': '8:68020', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Galen', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jsagx-6', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jsagx-6/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jsagx-6/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3762,unix/ubuntu:/tmp/.ICE-unix/3762', 'INVOCATION_ID': '86c78a85b05b4029b3ffbba6a59d5668', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:26d05423-0199-48d0-b3ad-cebcb1be8198', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jsagx-6/itc01_ws/build/mr2_realsense', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.3', 'CMAKE_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition', 'JETSON_P_NUMBER': 'p2888-0004'}, 'shell': False}
+[2.320376] (-) TimerEvent: {}
+[2.421633] (-) TimerEvent: {}
+[2.522318] (-) TimerEvent: {}
+[2.622978] (-) TimerEvent: {}
+[2.723682] (-) TimerEvent: {}
+[2.824370] (-) TimerEvent: {}
+[2.925324] (-) TimerEvent: {}
+[3.025979] (-) TimerEvent: {}
+[3.064413] (mr2_realsense) StdoutLine: {'line': b'running egg_info\n'}
+[3.066594] (mr2_realsense) StdoutLine: {'line': b'writing ../../../build/mr2_realsense/mr2_realsense.egg-info/PKG-INFO\n'}
+[3.067456] (mr2_realsense) StdoutLine: {'line': b'writing dependency_links to ../../../build/mr2_realsense/mr2_realsense.egg-info/dependency_links.txt\n'}
+[3.068365] (mr2_realsense) StdoutLine: {'line': b'writing entry points to ../../../build/mr2_realsense/mr2_realsense.egg-info/entry_points.txt\n'}
+[3.070203] (mr2_realsense) StdoutLine: {'line': b'writing requirements to ../../../build/mr2_realsense/mr2_realsense.egg-info/requires.txt\n'}
+[3.070536] (mr2_realsense) StdoutLine: {'line': b'writing top-level names to ../../../build/mr2_realsense/mr2_realsense.egg-info/top_level.txt\n'}
+[3.126147] (-) TimerEvent: {}
+[3.186804] (mr2_realsense) StdoutLine: {'line': b"reading manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'\n"}
+[3.190509] (mr2_realsense) StdoutLine: {'line': b"writing manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'\n"}
+[3.191021] (mr2_realsense) StdoutLine: {'line': b'running build\n'}
+[3.191334] (mr2_realsense) StdoutLine: {'line': b'running build_py\n'}
+[3.195158] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolov8_rs07.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[3.197374] (mr2_realsense) StdoutLine: {'line': b'running install\n'}
+[3.199805] (mr2_realsense) StdoutLine: {'line': b'running install_lib\n'}
+[3.205401] (mr2_realsense) StdoutLine: {'line': b'copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/yolov8_rs07.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense\n'}
+[3.209364] (mr2_realsense) StdoutLine: {'line': b'byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/yolov8_rs07.py to yolov8_rs07.cpython-38.pyc\n'}
+[3.216706] (mr2_realsense) StdoutLine: {'line': b'running install_data\n'}
+[3.217197] (mr2_realsense) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.222365] (mr2_realsense) StdoutLine: {'line': b"removing '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.223742] (mr2_realsense) StdoutLine: {'line': b'Copying ../../../build/mr2_realsense/mr2_realsense.egg-info to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info\n'}
+[3.226227] (-) TimerEvent: {}
+[3.227592] (mr2_realsense) StdoutLine: {'line': b'running install_scripts\n'}
+[3.279661] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_depth script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.280328] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.280851] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.281334] (mr2_realsense) StdoutLine: {'line': b'Installing webcam_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.281773] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_ball_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.282230] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_ball_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.282661] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_pub_8 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.283116] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_blue script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.283589] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.283992] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs03 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.284435] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs04 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.284965] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs05 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.285372] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs06 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.285820] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs07 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.286248] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_webcam script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.286715] (mr2_realsense) StdoutLine: {'line': b'Installing yolov9_blue script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.287159] (mr2_realsense) StdoutLine: {'line': b'Installing yolov9_red script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[3.289615] (mr2_realsense) StdoutLine: {'line': b"writing list of installed files to '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log'\n"}
+[3.326440] (-) TimerEvent: {}
+[3.362054] (mr2_realsense) CommandEnded: {'returncode': 0}
+[3.415140] (mr2_realsense) JobEnded: {'identifier': 'mr2_realsense', 'rc': 0}
+[3.418213] (-) EventReactorShutdown: {}

@@ -1,0 +1,94 @@
+[3.121s] Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data
+[3.585s] /home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.585s] !!
+[3.586s] 
+[3.586s]         ********************************************************************************
+[3.586s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.587s]         versions. Please use the underscore name 'script_dir' instead.
+[3.587s] 
+[3.587s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[3.587s]         or your builds will no longer be supported.
+[3.588s] 
+[3.588s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.588s]         ********************************************************************************
+[3.588s] 
+[3.589s] !!
+[3.589s]   opt = self.warn_dash_deprecation(opt, section)
+[4.011s] running egg_info
+[4.012s] creating ../../../build/mr2_realsense/mr2_realsense.egg-info
+[4.068s] writing ../../../build/mr2_realsense/mr2_realsense.egg-info/PKG-INFO
+[4.070s] writing dependency_links to ../../../build/mr2_realsense/mr2_realsense.egg-info/dependency_links.txt
+[4.071s] writing entry points to ../../../build/mr2_realsense/mr2_realsense.egg-info/entry_points.txt
+[4.072s] writing requirements to ../../../build/mr2_realsense/mr2_realsense.egg-info/requires.txt
+[4.072s] writing top-level names to ../../../build/mr2_realsense/mr2_realsense.egg-info/top_level.txt
+[4.445s] writing manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'
+[4.566s] reading manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'
+[4.570s] writing manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'
+[4.571s] running build
+[4.571s] running build_py
+[4.572s] creating /home/jsagx-6/itc01_ws/build/mr2_realsense/build
+[4.573s] creating /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib
+[4.573s] creating /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.574s] copying mr2_realsense/test_opencv_8_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.574s] copying mr2_realsense/silos_pub03.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.575s] copying mr2_realsense/silos_webpub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.576s] copying mr2_realsense/realsense_pub_image02.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.577s] copying mr2_realsense/realsense_pub_image.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.578s] copying mr2_realsense/__init__.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.578s] copying mr2_realsense/yolo_ball_pub02.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.579s] copying mr2_realsense/yolo_ball_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.580s] copying mr2_realsense/util.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.580s] copying mr2_realsense/realsense_depth02.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.581s] copying mr2_realsense/val.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.582s] copying mr2_realsense/realsense_depth.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.582s] copying mr2_realsense/realsense_depth03.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.583s] copying mr2_realsense/webcam_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[4.584s] running install
+[4.603s] running install_lib
+[4.664s] creating /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.664s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/test_opencv_8_pub.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.665s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/silos_pub03.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.665s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/silos_webpub.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.666s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/realsense_pub_image02.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.666s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/realsense_pub_image.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.666s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/__init__.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.667s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/yolo_ball_pub02.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.667s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/yolo_ball_pub.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.668s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/util.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.668s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/realsense_depth02.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.669s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/val.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.670s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/realsense_depth.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.670s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/realsense_depth03.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.671s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/webcam_pub.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[4.673s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/test_opencv_8_pub.py to test_opencv_8_pub.cpython-38.pyc
+[4.676s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/silos_pub03.py to silos_pub03.cpython-38.pyc
+[4.678s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/silos_webpub.py to silos_webpub.cpython-38.pyc
+[4.681s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/realsense_pub_image02.py to realsense_pub_image02.cpython-38.pyc
+[4.683s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/realsense_pub_image.py to realsense_pub_image.cpython-38.pyc
+[4.684s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/__init__.py to __init__.cpython-38.pyc
+[4.685s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/yolo_ball_pub02.py to yolo_ball_pub02.cpython-38.pyc
+[4.688s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/yolo_ball_pub.py to yolo_ball_pub.cpython-38.pyc
+[4.689s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/util.py to util.cpython-38.pyc
+[4.690s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/realsense_depth02.py to realsense_depth02.cpython-38.pyc
+[4.692s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/val.py to val.cpython-38.pyc
+[4.703s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/realsense_depth.py to realsense_depth.cpython-38.pyc
+[4.705s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/realsense_depth03.py to realsense_depth03.cpython-38.pyc
+[4.708s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/webcam_pub.py to webcam_pub.cpython-38.pyc
+[4.710s] running install_data
+[4.710s] creating /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index
+[4.711s] creating /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index/resource_index
+[4.718s] creating /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index/resource_index/packages
+[4.719s] copying resource/mr2_realsense -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index/resource_index/packages
+[4.719s] copying package.xml -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense
+[4.720s] running install_egg_info
+[4.775s] Copying ../../../build/mr2_realsense/mr2_realsense.egg-info to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info
+[4.779s] running install_scripts
+[4.916s] Installing realsense_depth script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.917s] Installing realsense_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.917s] Installing realsense_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.918s] Installing webcam_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.918s] Installing yolo_ball_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.919s] Installing yolo_ball_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.919s] Installing yolo_pub_8 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.921s] writing list of installed files to '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log'
+[5.003s] Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense' returned '0': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data

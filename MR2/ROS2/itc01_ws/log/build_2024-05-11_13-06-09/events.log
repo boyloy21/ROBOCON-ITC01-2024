@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.028623] (-) JobUnselected: {'identifier': 'mr2_realsense'}
+[0.029956] (-) JobUnselected: {'identifier': 'yolobot_recognition'}
+[0.030108] (-) JobUnselected: {'identifier': 'yolov8_msgs'}
+[0.030215] (buffalo_robot) JobQueued: {'identifier': 'buffalo_robot', 'dependencies': OrderedDict()}
+[0.031858] (buffalo_robot) JobStarted: {'identifier': 'buffalo_robot'}
+[0.099693] (-) TimerEvent: {}
+[0.200928] (-) TimerEvent: {}
+[0.302683] (-) TimerEvent: {}
+[0.404421] (-) TimerEvent: {}
+[0.505121] (-) TimerEvent: {}
+[0.605836] (-) TimerEvent: {}
+[0.707190] (-) TimerEvent: {}
+[0.807878] (-) TimerEvent: {}
+[0.908603] (-) TimerEvent: {}
+[1.009301] (-) TimerEvent: {}
+[1.109981] (-) TimerEvent: {}
+[1.210717] (-) TimerEvent: {}
+[1.311418] (-) TimerEvent: {}
+[1.412237] (-) TimerEvent: {}
+[1.513251] (-) TimerEvent: {}
+[1.614774] (-) TimerEvent: {}
+[1.715510] (-) TimerEvent: {}
+[1.816314] (-) TimerEvent: {}
+[1.917049] (-) TimerEvent: {}
+[2.017814] (-) TimerEvent: {}
+[2.118583] (-) TimerEvent: {}
+[2.219312] (-) TimerEvent: {}
+[2.320053] (-) TimerEvent: {}
+[2.420735] (-) TimerEvent: {}
+[2.521450] (-) TimerEvent: {}
+[2.622217] (-) TimerEvent: {}
+[2.723032] (-) TimerEvent: {}
+[2.823732] (-) TimerEvent: {}
+[2.924420] (-) TimerEvent: {}
+[3.025090] (-) TimerEvent: {}
+[3.125811] (-) TimerEvent: {}
+[3.226534] (-) TimerEvent: {}
+[3.327385] (-) TimerEvent: {}
+[3.428269] (-) TimerEvent: {}
+[3.529025] (-) TimerEvent: {}
+[3.629703] (-) TimerEvent: {}
+[3.730408] (-) TimerEvent: {}
+[3.831881] (-) TimerEvent: {}
+[3.932548] (-) TimerEvent: {}
+[4.033183] (-) TimerEvent: {}
+[4.133834] (-) TimerEvent: {}
+[4.234568] (-) TimerEvent: {}
+[4.335307] (-) TimerEvent: {}
+[4.436082] (-) TimerEvent: {}
+[4.536856] (-) TimerEvent: {}
+[4.638511] (-) TimerEvent: {}
+[4.739240] (-) TimerEvent: {}
+[4.840004] (-) TimerEvent: {}
+[4.940732] (-) TimerEvent: {}
+[5.041668] (-) TimerEvent: {}
+[5.142398] (-) TimerEvent: {}
+[5.243170] (-) TimerEvent: {}
+[5.343871] (-) TimerEvent: {}
+[5.444589] (-) TimerEvent: {}
+[5.545305] (-) TimerEvent: {}
+[5.646546] (-) TimerEvent: {}
+[5.747821] (-) TimerEvent: {}
+[5.849189] (-) TimerEvent: {}
+[5.869393] (buffalo_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/buffalo_robot', 'build', '--build-base', '/home/jsagx-6/itc01_ws/build/buffalo_robot/build', 'install', '--record', '/home/jsagx-6/itc01_ws/build/buffalo_robot/install.log', '--install-scripts', '$base/lib/buffalo_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jsagx-6', 'SSH_CLIENT': '192.168.77.211 47682 22', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jsagx-6', 'OLDPWD': '/home/jsagx-6', 'SSH_TTY': '/dev/pts/1', 'JETSON_L4T': '35.5.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'Jetson-AGX', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jsagx-6', 'JETSON_MODULE': 'NVIDIA Jetson AGX Xavier (32 GB ram)', 'JETSON_SERIAL_NUMBER': '1561221004404', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Galen', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'km_KH', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'ROS_DOMAIN_ID': '5', 'AMENT_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'LC_IDENTIFICATION': 'km_KH', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jsagx-6/itc01_ws/build/buffalo_robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.77.211 47682 192.168.77.215 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'JETSON_JETPACK': '5.1.3', 'CMAKE_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy', 'JETSON_P_NUMBER': 'p2888-0004'}, 'shell': False}
+[5.949660] (-) TimerEvent: {}
+[6.051614] (-) TimerEvent: {}
+[6.152987] (-) TimerEvent: {}
+[6.254230] (-) TimerEvent: {}
+[6.355421] (-) TimerEvent: {}
+[6.456578] (-) TimerEvent: {}
+[6.557831] (-) TimerEvent: {}
+[6.590423] (buffalo_robot) StderrLine: {'line': b'/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[6.591878] (buffalo_robot) StderrLine: {'line': b'!!\n'}
+[6.592720] (buffalo_robot) StderrLine: {'line': b'\n'}
+[6.593025] (buffalo_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.593342] (buffalo_robot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[6.593681] (buffalo_robot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[6.593944] (buffalo_robot) StderrLine: {'line': b'\n'}
+[6.594223] (buffalo_robot) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[6.594539] (buffalo_robot) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[6.594919] (buffalo_robot) StderrLine: {'line': b'\n'}
+[6.595205] (buffalo_robot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[6.595482] (buffalo_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.595767] (buffalo_robot) StderrLine: {'line': b'\n'}
+[6.596075] (buffalo_robot) StderrLine: {'line': b'!!\n'}
+[6.596372] (buffalo_robot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[6.658029] (-) TimerEvent: {}
+[6.759380] (-) TimerEvent: {}
+[6.860064] (-) TimerEvent: {}
+[6.960815] (-) TimerEvent: {}
+[7.061605] (-) TimerEvent: {}
+[7.162352] (-) TimerEvent: {}
+[7.263114] (-) TimerEvent: {}
+[7.326685] (buffalo_robot) StdoutLine: {'line': b'running egg_info\n'}
+[7.363313] (-) TimerEvent: {}
+[7.423964] (buffalo_robot) StdoutLine: {'line': b'writing ../../../build/buffalo_robot/buffalo_robot.egg-info/PKG-INFO\n'}
+[7.425634] (buffalo_robot) StdoutLine: {'line': b'writing dependency_links to ../../../build/buffalo_robot/buffalo_robot.egg-info/dependency_links.txt\n'}
+[7.431486] (buffalo_robot) StdoutLine: {'line': b'writing entry points to ../../../build/buffalo_robot/buffalo_robot.egg-info/entry_points.txt\n'}
+[7.432559] (buffalo_robot) StdoutLine: {'line': b'writing requirements to ../../../build/buffalo_robot/buffalo_robot.egg-info/requires.txt\n'}
+[7.433167] (buffalo_robot) StdoutLine: {'line': b'writing top-level names to ../../../build/buffalo_robot/buffalo_robot.egg-info/top_level.txt\n'}
+[7.463487] (-) TimerEvent: {}
+[7.564224] (-) TimerEvent: {}
+[7.664867] (-) TimerEvent: {}
+[7.765526] (-) TimerEvent: {}
+[7.866512] (-) TimerEvent: {}
+[7.967190] (-) TimerEvent: {}
+[8.067946] (-) TimerEvent: {}
+[8.168606] (-) TimerEvent: {}
+[8.269284] (-) TimerEvent: {}
+[8.313137] (buffalo_robot) StdoutLine: {'line': b"reading manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'\n"}
+[8.319864] (buffalo_robot) StdoutLine: {'line': b"writing manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'\n"}
+[8.320486] (buffalo_robot) StdoutLine: {'line': b'running build\n'}
+[8.320911] (buffalo_robot) StdoutLine: {'line': b'running build_py\n'}
+[8.328769] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_buffalo.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.329611] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mecanum_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.330414] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/pid_simulation.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.331327] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/imu.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.332009] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_buffaloV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.332878] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mpc_omni.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.334710] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.335599] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/__init__.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.336182] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/EKF.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.336985] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/ps4_control.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.337825] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_control_Motor.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.338524] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.339401] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcSimV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.340156] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/Omni_PidSim.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.341254] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_buffaloV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.342859] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.344032] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/bezier_path.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.345366] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.346137] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mecanum_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.347019] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/imu_HFI_a9.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[8.349669] (buffalo_robot) StdoutLine: {'line': b'running install\n'}
+[8.369497] (-) TimerEvent: {}
+[8.370777] (buffalo_robot) StdoutLine: {'line': b'running install_lib\n'}
+[8.453637] (buffalo_robot) StdoutLine: {'line': b'copying /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot/omni_pidV2.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot\n'}
+[8.469710] (-) TimerEvent: {}
+[8.503561] (buffalo_robot) StdoutLine: {'line': b'byte-compiling /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot/omni_pidV2.py to omni_pidV2.cpython-38.pyc\n'}
+[8.512685] (buffalo_robot) StdoutLine: {'line': b'running install_data\n'}
+[8.514120] (buffalo_robot) StdoutLine: {'line': b'copying resource/buffalo_robot -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/ament_index/resource_index/packages\n'}
+[8.543556] (buffalo_robot) StdoutLine: {'line': b'copying package.xml -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot\n'}
+[8.544437] (buffalo_robot) StdoutLine: {'line': b'copying launch/omni_pid.launch.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/launch\n'}
+[8.545107] (buffalo_robot) StdoutLine: {'line': b'copying launch/omni_mpc.launch.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/launch\n'}
+[8.545594] (buffalo_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.569947] (-) TimerEvent: {}
+[8.671319] (-) TimerEvent: {}
+[8.720147] (buffalo_robot) StdoutLine: {'line': b"removing '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.722988] (buffalo_robot) StdoutLine: {'line': b'Copying ../../../build/buffalo_robot/buffalo_robot.egg-info to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info\n'}
+[8.730170] (buffalo_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[8.771498] (-) TimerEvent: {}
+[8.872653] (-) TimerEvent: {}
+[8.971247] (buffalo_robot) StdoutLine: {'line': b'Installing Omni_PidSim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.972805] (-) TimerEvent: {}
+[8.974096] (buffalo_robot) StdoutLine: {'line': b'Installing Omni_model script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.977272] (buffalo_robot) StdoutLine: {'line': b'Installing buffalo_sim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.978948] (buffalo_robot) StdoutLine: {'line': b'Installing buffalov1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.980725] (buffalo_robot) StdoutLine: {'line': b'Installing buffalov2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.982559] (buffalo_robot) StdoutLine: {'line': b'Installing can_buffalo script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.984280] (buffalo_robot) StdoutLine: {'line': b'Installing can_buffaloV2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.985949] (buffalo_robot) StdoutLine: {'line': b'Installing can_motor script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.987593] (buffalo_robot) StdoutLine: {'line': b'Installing can_rotary script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.989054] (buffalo_robot) StdoutLine: {'line': b'Installing imu script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.990845] (buffalo_robot) StdoutLine: {'line': b'Installing imu_ha9 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.992560] (buffalo_robot) StdoutLine: {'line': b'Installing mec_teleop script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.994080] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcsim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.995665] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[8.998413] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[9.000695] (buffalo_robot) StdoutLine: {'line': b'Installing omni_pidv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[9.002598] (buffalo_robot) StdoutLine: {'line': b'Installing omni_pidv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[9.004477] (buffalo_robot) StdoutLine: {'line': b'Installing ps4 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[9.006138] (buffalo_robot) StdoutLine: {'line': b'Installing ps4v2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[9.010505] (buffalo_robot) StdoutLine: {'line': b"writing list of installed files to '/home/jsagx-6/itc01_ws/build/buffalo_robot/install.log'\n"}
+[9.073043] (-) TimerEvent: {}
+[9.178204] (-) TimerEvent: {}
+[9.214265] (buffalo_robot) CommandEnded: {'returncode': 0}
+[9.279386] (-) TimerEvent: {}
+[9.309918] (buffalo_robot) JobEnded: {'identifier': 'buffalo_robot', 'rc': 0}
+[9.315043] (-) EventReactorShutdown: {}

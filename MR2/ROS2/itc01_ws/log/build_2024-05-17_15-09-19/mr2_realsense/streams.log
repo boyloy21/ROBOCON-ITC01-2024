@@ -1,0 +1,61 @@
+[2.572s] Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data
+[3.014s] /home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.014s] !!
+[3.014s] 
+[3.015s]         ********************************************************************************
+[3.015s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.015s]         versions. Please use the underscore name 'script_dir' instead.
+[3.015s] 
+[3.016s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[3.016s]         or your builds will no longer be supported.
+[3.016s] 
+[3.016s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.017s]         ********************************************************************************
+[3.017s] 
+[3.017s] !!
+[3.018s]   opt = self.warn_dash_deprecation(opt, section)
+[3.406s] running egg_info
+[3.459s] writing ../../../build/mr2_realsense/mr2_realsense.egg-info/PKG-INFO
+[3.460s] writing dependency_links to ../../../build/mr2_realsense/mr2_realsense.egg-info/dependency_links.txt
+[3.461s] writing entry points to ../../../build/mr2_realsense/mr2_realsense.egg-info/entry_points.txt
+[3.462s] writing requirements to ../../../build/mr2_realsense/mr2_realsense.egg-info/requires.txt
+[3.463s] writing top-level names to ../../../build/mr2_realsense/mr2_realsense.egg-info/top_level.txt
+[3.896s] reading manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'
+[3.900s] writing manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'
+[3.900s] running build
+[3.901s] running build_py
+[3.902s] copying mr2_realsense/test_opencv_8_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.902s] copying mr2_realsense/yolov8_rs05.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.903s] copying mr2_realsense/yolov8_webcam.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.904s] copying mr2_realsense/realsense_pub_image.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.905s] copying mr2_realsense/__init__.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.906s] copying mr2_realsense/yolov8_rs03.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.906s] copying mr2_realsense/yolo_ball_pub02.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.907s] copying mr2_realsense/yolo_ball_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.908s] copying mr2_realsense/yolov8_rs.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.909s] copying mr2_realsense/yolov8_rs04.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense
+[3.911s] running install
+[3.927s] running install_lib
+[3.984s] copying /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense/yolov8_rs03.py -> /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense
+[3.988s] byte-compiling /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense/yolov8_rs03.py to yolov8_rs03.cpython-38.pyc
+[3.992s] running install_data
+[3.993s] copying resource/mr2_realsense -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index/resource_index/packages
+[3.993s] copying package.xml -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense
+[3.994s] running install_egg_info
+[4.051s] removing '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info' (and everything under it)
+[4.052s] Copying ../../../build/mr2_realsense/mr2_realsense.egg-info to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info
+[4.056s] running install_scripts
+[4.188s] Installing realsense_depth script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.188s] Installing realsense_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.189s] Installing realsense_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.189s] Installing webcam_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.190s] Installing yolo_ball_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.190s] Installing yolo_ball_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.191s] Installing yolo_pub_8 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.191s] Installing yolov8_rs script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.192s] Installing yolov8_rs03 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.192s] Installing yolov8_rs04 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.193s] Installing yolov8_rs05 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.194s] Installing yolov8_webcam script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense
+[4.196s] writing list of installed files to '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log'
+[4.274s] Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense' returned '0': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data

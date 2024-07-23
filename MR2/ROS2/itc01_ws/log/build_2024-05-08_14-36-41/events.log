@@ -1,0 +1,549 @@
+[0.000000] (-) TimerEvent: {}
+[0.001214] (buffalo_robot) JobQueued: {'identifier': 'buffalo_robot', 'dependencies': OrderedDict()}
+[0.001789] (mr2_realsense) JobQueued: {'identifier': 'mr2_realsense', 'dependencies': OrderedDict()}
+[0.001907] (yolobot_recognition) JobQueued: {'identifier': 'yolobot_recognition', 'dependencies': OrderedDict()}
+[0.001986] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.002078] (buffalo_robot) JobStarted: {'identifier': 'buffalo_robot'}
+[0.038857] (mr2_realsense) JobStarted: {'identifier': 'mr2_realsense'}
+[0.074144] (yolobot_recognition) JobStarted: {'identifier': 'yolobot_recognition'}
+[0.099595] (-) TimerEvent: {}
+[0.104234] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.200022] (-) TimerEvent: {}
+[0.301812] (-) TimerEvent: {}
+[0.402627] (-) TimerEvent: {}
+[0.503393] (-) TimerEvent: {}
+[0.604168] (-) TimerEvent: {}
+[0.704903] (-) TimerEvent: {}
+[0.805763] (-) TimerEvent: {}
+[0.907171] (-) TimerEvent: {}
+[1.008986] (-) TimerEvent: {}
+[1.109908] (-) TimerEvent: {}
+[1.210687] (-) TimerEvent: {}
+[1.311610] (-) TimerEvent: {}
+[1.412413] (-) TimerEvent: {}
+[1.513294] (-) TimerEvent: {}
+[1.559096] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'cmake'}
+[1.562042] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'build'}
+[1.564835] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jsagx-6/itc01_ws/build/yolobot_recognition', '--', '-j8', '-l8'], 'cwd': '/home/jsagx-6/itc01_ws/build/yolobot_recognition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jsagx-6'), ('SSH_CLIENT', '192.168.77.208 37540 22'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jsagx-6'), ('OLDPWD', '/home/jsagx-6'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jsagx-6'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1561221004404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'km_KH'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('AMENT_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('LC_IDENTIFICATION', 'km_KH'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jsagx-6/itc01_ws/build/yolobot_recognition'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 37540 192.168.77.206 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[1.589231] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[1.593479] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[1.595467] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jsagx-6/itc01_ws/build/yolov8_msgs', '--', '-j8', '-l8'], 'cwd': '/home/jsagx-6/itc01_ws/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jsagx-6'), ('SSH_CLIENT', '192.168.77.208 37540 22'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jsagx-6'), ('OLDPWD', '/home/jsagx-6'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jsagx-6'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1561221004404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'km_KH'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('AMENT_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('LC_IDENTIFICATION', 'km_KH'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jsagx-6/itc01_ws/build/yolov8_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 37540 192.168.77.206 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[1.613648] (-) TimerEvent: {}
+[1.717701] (-) TimerEvent: {}
+[1.737791] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[1.818049] (-) TimerEvent: {}
+[1.820259] (yolov8_msgs) StdoutLine: {'line': b'[  2%] Built target yolov8_msgs__cpp\n'}
+[1.828850] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[1.836119] (yolobot_recognition) JobProgress: {'identifier': 'yolobot_recognition', 'progress': 'install'}
+[1.902273] (yolobot_recognition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jsagx-6/itc01_ws/build/yolobot_recognition'], 'cwd': '/home/jsagx-6/itc01_ws/build/yolobot_recognition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jsagx-6'), ('SSH_CLIENT', '192.168.77.208 37540 22'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jsagx-6'), ('OLDPWD', '/home/jsagx-6'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jsagx-6'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1561221004404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'km_KH'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('AMENT_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('LC_IDENTIFICATION', 'km_KH'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jsagx-6/itc01_ws/build/yolobot_recognition'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 37540 192.168.77.206 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[1.918481] (-) TimerEvent: {}
+[1.928654] (yolov8_msgs) StdoutLine: {'line': b'[ 25%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[1.930327] (yolov8_msgs) StdoutLine: {'line': b'[ 33%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.943689] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[1.944317] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[1.953999] (yolov8_msgs) StdoutLine: {'line': b'[ 64%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.955878] (yolobot_recognition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.956966] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts\n'}
+[1.958344] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/train.py\n'}
+[1.959235] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/export.py\n'}
+[1.959910] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov5s.pt\n'}
+[1.960274] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data\n'}
+[1.960567] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/GlobalWheat2020.yaml\n'}
+[1.960870] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/images\n'}
+[1.961216] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/images/zidane.jpg\n'}
+[1.961594] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/images/bus.jpg\n'}
+[1.961840] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/coco128.yaml\n'}
+[1.962141] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/xView.yaml\n'}
+[1.962379] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/ImageNet.yaml\n'}
+[1.962663] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/scripts\n'}
+[1.962925] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/scripts/get_coco.sh\n'}
+[1.963169] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/scripts/get_coco128.sh\n'}
+[1.963454] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/scripts/get_imagenet.sh\n'}
+[1.963719] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/scripts/download_weights.sh\n'}
+[1.963952] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/Argoverse.yaml\n'}
+[1.964250] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/VisDrone.yaml\n'}
+[1.964486] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/VOC.yaml\n'}
+[1.964776] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps\n'}
+[1.965850] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.scratch-med.yaml\n'}
+[1.967239] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.VOC.yaml\n'}
+[1.967767] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.scratch-high.yaml\n'}
+[1.968574] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.scratch-low.yaml\n'}
+[1.969143] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.Objects365.yaml\n'}
+[1.969686] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/hyps/hyp.no-augmentation.yaml\n'}
+[1.970235] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/SKU-110K.yaml\n'}
+[1.970702] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/coco128-seg.yaml\n'}
+[1.971416] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/Objects365.yaml\n'}
+[1.971755] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/data/coco.yaml\n'}
+[1.972403] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitignore\n'}
+[1.972745] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/runs\n'}
+[1.973143] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/runs/detect\n'}
+[1.973869] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/runs/detect/exp\n'}
+[1.974360] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/runs/detect/exp/zidane.jpg\n'}
+[1.974933] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/runs/detect/exp/bus.jpg\n'}
+[1.975427] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/detect.py\n'}
+[1.975897] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models\n'}
+[1.976376] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment\n'}
+[1.977208] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment/yolov5s-seg.yaml\n'}
+[1.978045] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment/yolov5x-seg.yaml\n'}
+[1.978360] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment/yolov5m-seg.yaml\n'}
+[1.978991] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment/yolov5l-seg.yaml\n'}
+[1.979376] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/segment/yolov5n-seg.yaml\n'}
+[1.979635] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolov5m.yaml\n'}
+[1.980195] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolov5x.yaml\n'}
+[1.980664] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub\n'}
+[1.980956] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov3-tiny.yaml\n'}
+[1.981796] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-p34.yaml\n'}
+[1.982285] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5m6.yaml\n'}
+[1.982672] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov3.yaml\n'}
+[1.982959] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-bifpn.yaml\n'}
+[1.983242] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5n6.yaml\n'}
+[1.983490] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5s-LeakyReLU.yaml\n'}
+[1.983977] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-fpn.yaml\n'}
+[1.984397] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov3-spp.yaml\n'}
+[1.984723] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5l6.yaml\n'}
+[1.984984] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-p2.yaml\n'}
+[1.985323] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/anchors.yaml\n'}
+[1.985621] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5s6.yaml\n'}
+[1.985900] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5s-transformer.yaml\n'}
+[1.986156] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5x6.yaml\n'}
+[1.986391] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5s-ghost.yaml\n'}
+[1.986671] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-p7.yaml\n'}
+[1.986927] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-panet.yaml\n'}
+[1.987163] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/hub/yolov5-p6.yaml\n'}
+[1.987451] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolov5s.yaml\n'}
+[1.987737] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolov5l.yaml\n'}
+[1.988027] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/experimental.py\n'}
+[1.988516] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolov5n.yaml\n'}
+[1.990184] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/tf.py\n'}
+[1.995978] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__init__.py\n'}
+[1.997262] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/common.py\n'}
+[1.998091] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__\n'}
+[1.999653] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/__init__.cpython-38.pyc\n'}
+[2.000147] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/common.cpython-310.pyc\n'}
+[2.000471] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/experimental.cpython-310.pyc\n'}
+[2.002856] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/yolo.cpython-310.pyc\n'}
+[2.003380] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/yolo.cpython-38.pyc\n'}
+[2.004041] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/experimental.cpython-38.pyc\n'}
+[2.004808] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/__init__.cpython-310.pyc\n'}
+[2.005212] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/__pycache__/common.cpython-38.pyc\n'}
+[2.005662] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/models/yolo.py\n'}
+[2.006324] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/yolov5_detection.py\n'}
+[2.006707] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.dockerignore\n'}
+[2.007284] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/__pycache__\n'}
+[2.007759] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/__pycache__/val.cpython-310.pyc\n'}
+[2.009226] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/__pycache__/export.cpython-38.pyc\n'}
+[2.010060] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/__pycache__/export.cpython-310.pyc\n'}
+[2.010731] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/hubconf.py\n'}
+[2.011097] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/ros_recognition_yolo.py\n'}
+[2.011617] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/val.py\n'}
+[2.012417] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/setup.cfg\n'}
+[2.013194] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/best.pt\n'}
+[2.013644] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils\n'}
+[2.014400] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment\n'}
+[2.015086] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/dataloaders.py\n'}
+[2.015530] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/plots.py\n'}
+[2.016653] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/augmentations.py\n'}
+[2.017368] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/general.py\n'}
+[2.018379] (-) TimerEvent: {}
+[2.019113] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__init__.py\n'}
+[2.019591] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/metrics.py\n'}
+[2.023403] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__pycache__\n'}
+[2.023780] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__pycache__/__init__.cpython-38.pyc\n'}
+[2.024510] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__pycache__/general.cpython-38.pyc\n'}
+[2.024915] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__pycache__/__init__.cpython-310.pyc\n'}
+[2.026300] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/__pycache__/general.cpython-310.pyc\n'}
+[2.027175] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/segment/loss.py\n'}
+[2.027596] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/dataloaders.py\n'}
+[2.028105] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/plots.py\n'}
+[2.028517] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/augmentations.py\n'}
+[2.028977] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/general.py\n'}
+[2.029473] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__init__.py\n'}
+[2.029874] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/metrics.py\n'}
+[2.030278] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/flask_rest_api\n'}
+[2.030735] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/flask_rest_api/example_request.py\n'}
+[2.031142] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/flask_rest_api/README.md\n'}
+[2.031594] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/flask_rest_api/restapi.py\n'}
+[2.031983] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__\n'}
+[2.032407] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/autoanchor.cpython-38.pyc\n'}
+[2.032884] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/__init__.cpython-38.pyc\n'}
+[2.033349] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/autobatch.cpython-310.pyc\n'}
+[2.033702] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/dataloaders.cpython-310.pyc\n'}
+[2.034069] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/torch_utils.cpython-38.pyc\n'}
+[2.034512] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/downloads.cpython-38.pyc\n'}
+[2.038153] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/plots.cpython-310.pyc\n'}
+[2.038940] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/downloads.cpython-310.pyc\n'}
+[2.040024] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/torch_utils.cpython-310.pyc\n'}
+[2.040857] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/general.cpython-38.pyc\n'}
+[2.041608] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/plots.cpython-38.pyc\n'}
+[2.042157] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/metrics.cpython-38.pyc\n'}
+[2.043227] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/augmentations.cpython-38.pyc\n'}
+[2.043606] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/__init__.cpython-310.pyc\n'}
+[2.044804] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/callbacks.cpython-310.pyc\n'}
+[2.045936] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/general.cpython-310.pyc\n'}
+[2.048424] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/metrics.cpython-310.pyc\n'}
+[2.050015] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/dataloaders.cpython-38.pyc\n'}
+[2.050732] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/augmentations.cpython-310.pyc\n'}
+[2.051491] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/__pycache__/autoanchor.cpython-310.pyc\n'}
+[2.055230] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/autoanchor.py\n'}
+[2.056159] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/activations.py\n'}
+[2.059622] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/aws\n'}
+[2.060666] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/aws/resume.py\n'}
+[2.062548] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/aws/__init__.py\n'}
+[2.063178] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/aws/mime.sh\n'}
+[2.064126] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/aws/userdata.sh\n'}
+[2.066480] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/autobatch.py\n'}
+[2.067252] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/callbacks.py\n'}
+[2.068043] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/downloads.py\n'}
+[2.068935] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/docker\n'}
+[2.070935] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/docker/Dockerfile-arm64\n'}
+[2.071357] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/docker/Dockerfile\n'}
+[2.071828] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/docker/Dockerfile-cpu\n'}
+[2.072401] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loss.py\n'}
+[2.073131] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers\n'}
+[2.073931] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/__init__.py\n'}
+[2.075528] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/__pycache__\n'}
+[2.076038] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/__pycache__/__init__.cpython-310.pyc\n'}
+[2.076624] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet\n'}
+[2.078350] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet/comet_utils.py\n'}
+[2.079122] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet/README.md\n'}
+[2.079840] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet/__init__.py\n'}
+[2.080222] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet/hpo.py\n'}
+[2.080488] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/comet/optimizer_config.json\n'}
+[2.080733] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/clearml\n'}
+[2.080999] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/clearml/README.md\n'}
+[2.082178] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/clearml/__init__.py\n'}
+[2.087754] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/clearml/hpo.py\n'}
+[2.093873] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/clearml/clearml_utils.py\n'}
+[2.094301] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/wandb\n'}
+[2.094594] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/wandb/wandb_utils.py\n'}
+[2.094893] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/loggers/wandb/__init__.py\n'}
+[2.095174] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/torch_utils.py\n'}
+[2.095474] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/google_app_engine\n'}
+[2.095761] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/google_app_engine/additional_requirements.txt\n'}
+[2.096044] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/google_app_engine/Dockerfile\n'}
+[2.096283] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/google_app_engine/app.yaml\n'}
+[2.096570] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/utils/triton.py\n'}
+[2.096821] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/webcam_pub.py\n'}
+[2.097211] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/benchmarks.py\n'}
+[2.097494] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/.gitattributes\n'}
+[2.097752] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition//scripts/ros_yolo_sub.py\n'}
+[2.098005] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/yolobot_recognition/ros_recognition_yolo.py\n'}
+[2.098265] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/yolobot_recognition/yolov5_detection.py\n'}
+[2.098566] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/yolobot_recognition/webcam_pub.py\n'}
+[2.098844] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/yolobot_recognition/ros_yolo_sub.py\n'}
+[2.099085] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/ament_index/resource_index/package_run_dependencies/yolobot_recognition\n'}
+[2.099326] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/ament_index/resource_index/parent_prefix_path/yolobot_recognition\n'}
+[2.099587] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.sh\n'}
+[2.099882] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/environment/ament_prefix_path.dsv\n'}
+[2.100146] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.sh\n'}
+[2.100429] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/environment/path.dsv\n'}
+[2.100718] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.bash\n'}
+[2.101124] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.sh\n'}
+[2.101429] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.zsh\n'}
+[2.101681] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/local_setup.dsv\n'}
+[2.101959] (yolobot_recognition) StdoutLine: {'line': b'-- Installing: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv\n'}
+[2.102248] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/ament_index/resource_index/packages/yolobot_recognition\n'}
+[2.102531] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig.cmake\n'}
+[2.102800] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/cmake/yolobot_recognitionConfig-version.cmake\n'}
+[2.103060] (yolobot_recognition) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.xml\n'}
+[2.103361] (yolobot_recognition) CommandEnded: {'returncode': 0}
+[2.105717] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.118605] (-) TimerEvent: {}
+[2.154318] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] Built target yolov8_msgs\n'}
+[2.191718] (yolobot_recognition) JobEnded: {'identifier': 'yolobot_recognition', 'rc': 0}
+[2.218777] (-) TimerEvent: {}
+[2.238971] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] Built target yolov8_msgs__py\n'}
+[2.318952] (-) TimerEvent: {}
+[2.336709] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] Built target yolov8_msgs__python\n'}
+[2.419152] (-) TimerEvent: {}
+[2.436682] (yolov8_msgs) StdoutLine: {'line': b'[ 89%] Built target yolov8_msgs__rosidl_typesupport_c__pyext\n'}
+[2.437834] (yolov8_msgs) StdoutLine: {'line': b'[ 94%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.443809] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.489548] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[2.519691] (-) TimerEvent: {}
+[2.622059] (-) TimerEvent: {}
+[2.723527] (-) TimerEvent: {}
+[2.731807] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[2.737945] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jsagx-6/itc01_ws/build/yolov8_msgs'], 'cwd': '/home/jsagx-6/itc01_ws/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jsagx-6'), ('SSH_CLIENT', '192.168.77.208 37540 22'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jsagx-6'), ('OLDPWD', '/home/jsagx-6'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '35.5.0'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'Jetson-AGX'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jsagx-6'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Xavier (32 GB ram)'), ('JETSON_SERIAL_NUMBER', '1561221004404'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Galen'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'km_KH'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('AMENT_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('LC_IDENTIFICATION', 'km_KH'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jsagx-6/itc01_ws/build/yolov8_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.77.208 37540 192.168.77.206 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.3'), ('CMAKE_PREFIX_PATH', '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot'), ('JETSON_P_NUMBER', 'p2888-0004')]), 'shell': False}
+[2.772252] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.774224] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[2.775279] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.775761] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.776080] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.h\n'}
+[2.776451] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.776873] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.c\n'}
+[2.777354] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.h\n'}
+[2.778041] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.h\n'}
+[2.778713] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.h\n'}
+[2.778993] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.h\n'}
+[2.779305] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.c\n'}
+[2.779798] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.h\n'}
+[2.780081] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.h\n'}
+[2.780326] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.780562] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.h\n'}
+[2.781670] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[2.781980] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[2.782247] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[2.782528] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.783042] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.783301] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.783585] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[2.783822] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[2.784951] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.785357] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.785613] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.785920] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.786314] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.786573] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.786810] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787047] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.787350] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/dds_fastrtps\n'}
+[2.787614] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.788096] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.788350] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.788589] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.789446] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[2.790620] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.c\n'}
+[2.791242] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.c\n'}
+[2.791905] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[2.792193] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.792438] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.792892] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[2.793215] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.793481] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.793761] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.794026] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.hpp\n'}
+[2.794269] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.hpp\n'}
+[2.794529] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp\n'}
+[2.794782] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp\n'}
+[2.795182] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp\n'}
+[2.795415] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp\n'}
+[2.795648] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__builder.hpp\n'}
+[2.795880] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__traits.hpp\n'}
+[2.796538] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.hpp\n'}
+[2.796930] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.797260] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.hpp\n'}
+[2.797511] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs\n'}
+[2.797744] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg\n'}
+[2.797996] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail\n'}
+[2.798253] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.798541] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.798792] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp\n'}
+[2.799046] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.cpp\n'}
+[2.799276] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.799533] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[2.799786] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[2.800072] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[2.800299] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py\n'}
+[2.823735] (-) TimerEvent: {}
+[2.925625] (-) TimerEvent: {}
+[2.928660] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg\n'}
+[2.929813] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result.py\n'}
+[2.930132] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/__init__.py\n'}
+[2.930384] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c\n'}
+[2.930910] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference.py\n'}
+[2.931201] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result_s.c\n'}
+[2.931455] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.932875] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.934931] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.936824] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so\n'}
+[2.937976] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl\n'}
+[2.938773] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl\n'}
+[2.939462] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg\n'}
+[2.940103] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg\n'}
+[2.940606] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[2.941330] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[2.941838] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[2.942118] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[2.942402] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[2.942874] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[2.943206] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[2.943750] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[2.944165] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[2.944608] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[2.945151] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[2.945546] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[2.946000] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[2.946280] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.946750] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.947118] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.947592] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.948050] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.948617] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.949434] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.949804] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.950294] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.950709] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.950977] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.951220] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.951482] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.951746] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.952062] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.952337] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.952644] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.952907] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[2.953265] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[2.953559] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[2.958879] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[3.026925] (-) TimerEvent: {}
+[3.128521] (-) TimerEvent: {}
+[3.229700] (-) TimerEvent: {}
+[3.289819] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[3.329842] (-) TimerEvent: {}
+[3.430532] (-) TimerEvent: {}
+[3.531279] (-) TimerEvent: {}
+[3.576286] (buffalo_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/buffalo_robot', 'build', '--build-base', '/home/jsagx-6/itc01_ws/build/buffalo_robot/build', 'install', '--record', '/home/jsagx-6/itc01_ws/build/buffalo_robot/install.log', '--install-scripts', '$base/lib/buffalo_robot', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jsagx-6', 'SSH_CLIENT': '192.168.77.208 37540 22', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jsagx-6', 'OLDPWD': '/home/jsagx-6', 'SSH_TTY': '/dev/pts/0', 'JETSON_L4T': '35.5.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'Jetson-AGX', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jsagx-6', 'JETSON_MODULE': 'NVIDIA Jetson AGX Xavier (32 GB ram)', 'JETSON_SERIAL_NUMBER': '1561221004404', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Galen', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'km_KH', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'AMENT_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'LC_IDENTIFICATION': 'km_KH', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jsagx-6/itc01_ws/build/buffalo_robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.77.208 37540 192.168.77.206 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'JETSON_JETPACK': '5.1.3', 'CMAKE_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy', 'JETSON_P_NUMBER': 'p2888-0004'}, 'shell': False}
+[3.608691] (mr2_realsense) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/mr2_realsense', 'build', '--build-base', '/home/jsagx-6/itc01_ws/build/mr2_realsense/build', 'install', '--record', '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log', '--install-scripts', '$base/lib/mr2_realsense', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jsagx-6', 'SSH_CLIENT': '192.168.77.208 37540 22', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jsagx-6', 'OLDPWD': '/home/jsagx-6', 'SSH_TTY': '/dev/pts/0', 'JETSON_L4T': '35.5.0', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'Jetson-AGX', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jsagx-6', 'JETSON_MODULE': 'NVIDIA Jetson AGX Xavier (32 GB ram)', 'JETSON_SERIAL_NUMBER': '1561221004404', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Galen', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'km_KH', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'AMENT_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'LC_IDENTIFICATION': 'km_KH', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jsagx-6/itc01_ws/build/mr2_realsense', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.77.208 37540 192.168.77.206 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:/usr/local/lib:/usr/local/lib/python3.6/pyrealsense2:', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'JETSON_JETPACK': '5.1.3', 'CMAKE_PREFIX_PATH': '/home/jsagx-6/itc01_ws/install/yolov8_msgs:/home/jsagx-6/itc01_ws/install/yolobot_recognition:/opt/ros/foxy', 'JETSON_P_NUMBER': 'p2888-0004'}, 'shell': False}
+[3.631689] (-) TimerEvent: {}
+[3.732706] (-) TimerEvent: {}
+[3.833540] (-) TimerEvent: {}
+[3.934255] (-) TimerEvent: {}
+[4.034996] (-) TimerEvent: {}
+[4.067933] (buffalo_robot) StderrLine: {'line': b'/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[4.068713] (buffalo_robot) StderrLine: {'line': b'!!\n'}
+[4.069034] (buffalo_robot) StderrLine: {'line': b'\n'}
+[4.069407] (buffalo_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.069660] (buffalo_robot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[4.069890] (buffalo_robot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[4.070132] (buffalo_robot) StderrLine: {'line': b'\n'}
+[4.070365] (buffalo_robot) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[4.070626] (buffalo_robot) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[4.070849] (buffalo_robot) StderrLine: {'line': b'\n'}
+[4.071092] (buffalo_robot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[4.071774] (buffalo_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.072038] (buffalo_robot) StderrLine: {'line': b'\n'}
+[4.072307] (buffalo_robot) StderrLine: {'line': b'!!\n'}
+[4.072559] (buffalo_robot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[4.072785] (mr2_realsense) StderrLine: {'line': b'/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[4.073207] (mr2_realsense) StderrLine: {'line': b'!!\n'}
+[4.073493] (mr2_realsense) StderrLine: {'line': b'\n'}
+[4.073721] (mr2_realsense) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.073948] (mr2_realsense) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[4.074170] (mr2_realsense) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[4.074422] (mr2_realsense) StderrLine: {'line': b'\n'}
+[4.074646] (mr2_realsense) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[4.074894] (mr2_realsense) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[4.075133] (mr2_realsense) StderrLine: {'line': b'\n'}
+[4.075352] (mr2_realsense) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[4.075590] (mr2_realsense) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.075808] (mr2_realsense) StderrLine: {'line': b'\n'}
+[4.076023] (mr2_realsense) StderrLine: {'line': b'!!\n'}
+[4.076251] (mr2_realsense) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[4.135175] (-) TimerEvent: {}
+[4.235878] (-) TimerEvent: {}
+[4.336621] (-) TimerEvent: {}
+[4.437481] (-) TimerEvent: {}
+[4.439610] (mr2_realsense) StdoutLine: {'line': b'running egg_info\n'}
+[4.467511] (buffalo_robot) StdoutLine: {'line': b'running egg_info\n'}
+[4.489569] (mr2_realsense) StdoutLine: {'line': b'writing ../../../build/mr2_realsense/mr2_realsense.egg-info/PKG-INFO\n'}
+[4.491230] (mr2_realsense) StdoutLine: {'line': b'writing dependency_links to ../../../build/mr2_realsense/mr2_realsense.egg-info/dependency_links.txt\n'}
+[4.492281] (mr2_realsense) StdoutLine: {'line': b'writing entry points to ../../../build/mr2_realsense/mr2_realsense.egg-info/entry_points.txt\n'}
+[4.492960] (mr2_realsense) StdoutLine: {'line': b'writing requirements to ../../../build/mr2_realsense/mr2_realsense.egg-info/requires.txt\n'}
+[4.493554] (mr2_realsense) StdoutLine: {'line': b'writing top-level names to ../../../build/mr2_realsense/mr2_realsense.egg-info/top_level.txt\n'}
+[4.521137] (buffalo_robot) StdoutLine: {'line': b'writing ../../../build/buffalo_robot/buffalo_robot.egg-info/PKG-INFO\n'}
+[4.522851] (buffalo_robot) StdoutLine: {'line': b'writing dependency_links to ../../../build/buffalo_robot/buffalo_robot.egg-info/dependency_links.txt\n'}
+[4.524298] (buffalo_robot) StdoutLine: {'line': b'writing entry points to ../../../build/buffalo_robot/buffalo_robot.egg-info/entry_points.txt\n'}
+[4.525139] (buffalo_robot) StdoutLine: {'line': b'writing requirements to ../../../build/buffalo_robot/buffalo_robot.egg-info/requires.txt\n'}
+[4.525736] (buffalo_robot) StdoutLine: {'line': b'writing top-level names to ../../../build/buffalo_robot/buffalo_robot.egg-info/top_level.txt\n'}
+[4.537577] (-) TimerEvent: {}
+[4.638104] (-) TimerEvent: {}
+[4.738699] (-) TimerEvent: {}
+[4.839369] (-) TimerEvent: {}
+[4.929405] (mr2_realsense) StdoutLine: {'line': b"reading manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'\n"}
+[4.933713] (mr2_realsense) StdoutLine: {'line': b"writing manifest file '../../../build/mr2_realsense/mr2_realsense.egg-info/SOURCES.txt'\n"}
+[4.934170] (mr2_realsense) StdoutLine: {'line': b'running build\n'}
+[4.934626] (mr2_realsense) StdoutLine: {'line': b'running build_py\n'}
+[4.935541] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/test_opencv_8_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.936686] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolov8_webcam.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.937574] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/realsense_pub_image.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.938265] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/__init__.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.938759] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolov8_rs03.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.939405] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolo_ball_pub02.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.939653] (-) TimerEvent: {}
+[4.940491] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolo_ball_pub.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.941112] (mr2_realsense) StdoutLine: {'line': b'copying mr2_realsense/yolov8_rs.py -> /home/jsagx-6/itc01_ws/build/mr2_realsense/build/lib/mr2_realsense\n'}
+[4.943345] (mr2_realsense) StdoutLine: {'line': b'running install\n'}
+[4.959858] (mr2_realsense) StdoutLine: {'line': b'running install_lib\n'}
+[4.983791] (buffalo_robot) StdoutLine: {'line': b"reading manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'\n"}
+[4.988900] (buffalo_robot) StdoutLine: {'line': b"writing manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'\n"}
+[4.989597] (buffalo_robot) StdoutLine: {'line': b'running build\n'}
+[4.990009] (buffalo_robot) StdoutLine: {'line': b'running build_py\n'}
+[4.991601] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mecanum_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.992419] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/pid_simulation.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.993169] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/imu.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.994000] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_buffaloV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.994849] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mpc_omni.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.995907] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.996569] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/__init__.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.997131] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/EKF.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.997975] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/ps4_control.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.998763] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_control_Motor.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[4.999395] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.000124] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcSimV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.000865] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/Omni_PidSim.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.001727] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/can_buffaloV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.002659] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_mpcV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.003347] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/bezier_path.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.004618] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/omni_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.005410] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/mecanum_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.006051] (buffalo_robot) StdoutLine: {'line': b'copying buffalo_robot/imu_HFI_a9.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot\n'}
+[5.008627] (buffalo_robot) StdoutLine: {'line': b'running install\n'}
+[5.018247] (mr2_realsense) StdoutLine: {'line': b'running install_data\n'}
+[5.018688] (mr2_realsense) StdoutLine: {'line': b'copying resource/mr2_realsense -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/ament_index/resource_index/packages\n'}
+[5.019224] (mr2_realsense) StdoutLine: {'line': b'copying package.xml -> /home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense\n'}
+[5.019779] (mr2_realsense) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.026377] (buffalo_robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.039761] (-) TimerEvent: {}
+[5.073296] (mr2_realsense) StdoutLine: {'line': b"removing '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.074689] (mr2_realsense) StdoutLine: {'line': b'Copying ../../../build/mr2_realsense/mr2_realsense.egg-info to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages/mr2_realsense-0.0.0-py3.8.egg-info\n'}
+[5.078576] (mr2_realsense) StdoutLine: {'line': b'running install_scripts\n'}
+[5.083801] (buffalo_robot) StdoutLine: {'line': b'copying /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot/can_buffaloV2.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot\n'}
+[5.088433] (buffalo_robot) StdoutLine: {'line': b'byte-compiling /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot/can_buffaloV2.py to can_buffaloV2.cpython-38.pyc\n'}
+[5.096249] (buffalo_robot) StdoutLine: {'line': b'running install_data\n'}
+[5.096692] (buffalo_robot) StdoutLine: {'line': b'copying resource/buffalo_robot -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/ament_index/resource_index/packages\n'}
+[5.097432] (buffalo_robot) StdoutLine: {'line': b'copying package.xml -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot\n'}
+[5.098228] (buffalo_robot) StdoutLine: {'line': b'copying launch/omni_pid.launch.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/launch\n'}
+[5.098870] (buffalo_robot) StdoutLine: {'line': b'copying launch/omni_mpc.launch.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/launch\n'}
+[5.099373] (buffalo_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.139926] (-) TimerEvent: {}
+[5.158899] (buffalo_robot) StdoutLine: {'line': b"removing '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.160274] (buffalo_robot) StdoutLine: {'line': b'Copying ../../../build/buffalo_robot/buffalo_robot.egg-info to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info\n'}
+[5.164319] (buffalo_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.205109] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_depth script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.205813] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.206500] (mr2_realsense) StdoutLine: {'line': b'Installing realsense_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.207114] (mr2_realsense) StdoutLine: {'line': b'Installing webcam_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.207642] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_ball_pub script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.208193] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_ball_pub02 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.208796] (mr2_realsense) StdoutLine: {'line': b'Installing yolo_pub_8 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.209428] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.209942] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_rs03 script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.210421] (mr2_realsense) StdoutLine: {'line': b'Installing yolov8_webcam script to /home/jsagx-6/itc01_ws/install/mr2_realsense/lib/mr2_realsense\n'}
+[5.212469] (mr2_realsense) StdoutLine: {'line': b"writing list of installed files to '/home/jsagx-6/itc01_ws/build/mr2_realsense/install.log'\n"}
+[5.240083] (-) TimerEvent: {}
+[5.296371] (mr2_realsense) CommandEnded: {'returncode': 0}
+[5.302230] (buffalo_robot) StdoutLine: {'line': b'Installing Omni_PidSim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.303067] (buffalo_robot) StdoutLine: {'line': b'Installing Omni_model script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.304817] (buffalo_robot) StdoutLine: {'line': b'Installing buffalo_sim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.306304] (buffalo_robot) StdoutLine: {'line': b'Installing buffalov1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.308820] (buffalo_robot) StdoutLine: {'line': b'Installing buffalov2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.311559] (buffalo_robot) StdoutLine: {'line': b'Installing can_buffalo script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.312372] (buffalo_robot) StdoutLine: {'line': b'Installing can_buffaloV2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.314058] (buffalo_robot) StdoutLine: {'line': b'Installing can_motor script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.314853] (buffalo_robot) StdoutLine: {'line': b'Installing can_rotary script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.315768] (buffalo_robot) StdoutLine: {'line': b'Installing imu script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.316227] (buffalo_robot) StdoutLine: {'line': b'Installing imu_ha9 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.316936] (buffalo_robot) StdoutLine: {'line': b'Installing mec_teleop script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.317748] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcsim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.318669] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.319099] (buffalo_robot) StdoutLine: {'line': b'Installing omni_mpcv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.320103] (buffalo_robot) StdoutLine: {'line': b'Installing omni_pidv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.320442] (buffalo_robot) StdoutLine: {'line': b'Installing omni_pidv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.320868] (buffalo_robot) StdoutLine: {'line': b'Installing ps4 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.323466] (buffalo_robot) StdoutLine: {'line': b'Installing ps4v2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot\n'}
+[5.324188] (buffalo_robot) StdoutLine: {'line': b"writing list of installed files to '/home/jsagx-6/itc01_ws/build/buffalo_robot/install.log'\n"}
+[5.334440] (mr2_realsense) JobEnded: {'identifier': 'mr2_realsense', 'rc': 0}
+[5.340196] (-) TimerEvent: {}
+[5.397800] (buffalo_robot) CommandEnded: {'returncode': 0}
+[5.418723] (buffalo_robot) JobEnded: {'identifier': 'buffalo_robot', 'rc': 0}
+[5.422772] (-) EventReactorShutdown: {}

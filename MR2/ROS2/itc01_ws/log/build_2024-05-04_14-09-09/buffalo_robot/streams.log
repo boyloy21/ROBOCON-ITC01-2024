@@ -1,0 +1,74 @@
+[4.200s] Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data
+[4.680s] /home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[4.680s] !!
+[4.681s] 
+[4.681s]         ********************************************************************************
+[4.681s]         Usage of dash-separated 'script-dir' will not be supported in future
+[4.681s]         versions. Please use the underscore name 'script_dir' instead.
+[4.682s] 
+[4.682s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[4.682s]         or your builds will no longer be supported.
+[4.682s] 
+[4.683s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[4.683s]         ********************************************************************************
+[4.683s] 
+[4.683s] !!
+[4.684s]   opt = self.warn_dash_deprecation(opt, section)
+[5.124s] running egg_info
+[5.182s] writing ../../../build/buffalo_robot/buffalo_robot.egg-info/PKG-INFO
+[5.184s] writing dependency_links to ../../../build/buffalo_robot/buffalo_robot.egg-info/dependency_links.txt
+[5.185s] writing entry points to ../../../build/buffalo_robot/buffalo_robot.egg-info/entry_points.txt
+[5.186s] writing requirements to ../../../build/buffalo_robot/buffalo_robot.egg-info/requires.txt
+[5.186s] writing top-level names to ../../../build/buffalo_robot/buffalo_robot.egg-info/top_level.txt
+[5.684s] reading manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'
+[5.690s] writing manifest file '../../../build/buffalo_robot/buffalo_robot.egg-info/SOURCES.txt'
+[5.690s] running build
+[5.690s] running build_py
+[5.692s] copying buffalo_robot/mecanum_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.692s] copying buffalo_robot/pid_simulation.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.693s] copying buffalo_robot/imu.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.694s] copying buffalo_robot/can_buffaloV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.695s] copying buffalo_robot/mpc_omni.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.696s] copying buffalo_robot/omni_pidV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.697s] copying buffalo_robot/__init__.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.698s] copying buffalo_robot/EKF.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.699s] copying buffalo_robot/can_control_Motor.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.699s] copying buffalo_robot/omni_mpcV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.700s] copying buffalo_robot/omni_mpcSimV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.701s] copying buffalo_robot/Omni_PidSim.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.702s] copying buffalo_robot/can_buffaloV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.703s] copying buffalo_robot/omni_mpcV1.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.704s] copying buffalo_robot/omni_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.705s] copying buffalo_robot/mecanum_pidV2.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.705s] copying buffalo_robot/imu_HFI_a9.py -> /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot
+[5.708s] running install
+[5.725s] running install_lib
+[5.789s] copying /home/jsagx-6/itc01_ws/build/buffalo_robot/build/lib/buffalo_robot/imu_HFI_a9.py -> /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot
+[5.793s] byte-compiling /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot/imu_HFI_a9.py to imu_HFI_a9.cpython-38.pyc
+[5.800s] running install_data
+[5.800s] copying resource/buffalo_robot -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/ament_index/resource_index/packages
+[5.801s] copying package.xml -> /home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot
+[5.802s] running install_egg_info
+[5.871s] removing '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[5.873s] Copying ../../../build/buffalo_robot/buffalo_robot.egg-info to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages/buffalo_robot-0.0.0-py3.8.egg-info
+[5.878s] running install_scripts
+[6.031s] Installing Omni_PidSim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.031s] Installing Omni_model script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.032s] Installing buffalo_sim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.033s] Installing buffalov1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.033s] Installing buffalov2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.034s] Installing can_buffalo script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.035s] Installing can_buffaloV2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.035s] Installing can_motor script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.036s] Installing can_rotary script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.037s] Installing imu script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.037s] Installing imu_ha9 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.038s] Installing omni_mpcsim script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.038s] Installing omni_mpcv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.039s] Installing omni_mpcv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.040s] Installing omni_pidv1 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.040s] Installing omni_pidv2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.041s] Installing ps4 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.041s] Installing ps4v2 script to /home/jsagx-6/itc01_ws/install/buffalo_robot/lib/buffalo_robot
+[6.045s] writing list of installed files to '/home/jsagx-6/itc01_ws/build/buffalo_robot/install.log'
+[6.139s] Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot' returned '0': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data

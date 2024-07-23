@@ -1,0 +1,135 @@
+[1.840s] Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[2.054s] [  2%] Built target yolov8_msgs__cpp
+[2.064s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[2.154s] [ 23%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[2.155s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[2.156s] [ 43%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[2.163s] [ 53%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[2.237s] [ 64%] Built target yolov8_msgs__rosidl_typesupport_c
+[2.323s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[2.354s] [ 74%] Built target yolov8_msgs
+[2.439s] [ 76%] Built target yolov8_msgs__py
+[2.535s] [ 84%] Built target yolov8_msgs__python
+[2.631s] [ 89%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.632s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[2.634s] [100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[2.676s] Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[2.947s] Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs
+[2.980s] -- Install configuration: ""
+[2.982s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[2.982s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[2.983s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[2.983s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.h
+[2.983s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[2.984s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.c
+[2.984s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.h
+[2.984s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[2.984s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[2.985s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[2.986s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.c
+[2.986s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.h
+[2.986s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.h
+[2.987s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.987s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.h
+[2.987s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[2.988s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[2.988s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[2.988s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[2.989s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[2.989s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[2.990s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[2.990s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[2.990s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.990s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[2.991s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[2.991s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[2.991s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.992s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[2.992s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[2.993s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[2.993s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/dds_fastrtps
+[2.993s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.994s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[2.994s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[2.994s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[2.995s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[2.995s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.c
+[2.995s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.c
+[2.996s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[2.996s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.996s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[2.997s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[2.997s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[2.998s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[2.999s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[2.999s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.hpp
+[3.000s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[3.000s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[3.000s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[3.001s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[3.001s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp
+[3.001s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[3.002s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[3.002s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.hpp
+[3.002s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.002s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.hpp
+[3.003s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.003s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.003s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.004s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[3.004s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[3.004s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp
+[3.005s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.cpp
+[3.005s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[3.005s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[3.006s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[3.006s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[3.006s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py
+[3.134s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg
+[3.135s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result.py
+[3.135s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/__init__.py
+[3.135s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[3.136s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference.py
+[3.136s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result_s.c
+[3.136s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.139s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.141s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.143s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so
+[3.144s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[3.145s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[3.146s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[3.146s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[3.146s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[3.147s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[3.147s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[3.148s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[3.148s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[3.148s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[3.148s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[3.149s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[3.149s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[3.150s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[3.150s] -- Installing: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[3.150s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[3.151s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport.cmake
+[3.151s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.151s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.152s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.152s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[3.152s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.153s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cppExport.cmake
+[3.153s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.153s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.154s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[3.155s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.155s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[3.155s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.156s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.156s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.157s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.157s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.157s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.158s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[3.158s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[3.158s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[3.168s] Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs

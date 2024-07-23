@@ -1,0 +1,4 @@
+Invoking command in '/home/jsagx-6/itc01_ws/build/mr2_launch': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/mr2_launch -- -j8 -l8
+Invoked command in '/home/jsagx-6/itc01_ws/build/mr2_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/mr2_launch -- -j8 -l8
+Invoking command in '/home/jsagx-6/itc01_ws/build/mr2_launch': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/mr2_launch
+Invoked command in '/home/jsagx-6/itc01_ws/build/mr2_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/mr2_launch

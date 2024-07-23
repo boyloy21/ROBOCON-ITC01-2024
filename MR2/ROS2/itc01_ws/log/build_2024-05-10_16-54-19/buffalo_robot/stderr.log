@@ -1,0 +1,59 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.8/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 90, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 188, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 14, in <module>
+    from . import version as _version_module
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/version.py", line 1, in <module>
+    from ._importlib import metadata
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_importlib.py", line 43, in <module>
+    disable_importlib_metadata_finder(metadata)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_importlib.py", line 12, in disable_importlib_metadata_finder
+    import importlib_metadata
+  File "/usr/lib/python3/dist-packages/importlib_metadata/__init__.py", line 591, in <module>
+    __version__ = version(__name__)
+  File "/usr/lib/python3/dist-packages/importlib_metadata/__init__.py", line 553, in version
+    return distribution(distribution_name).version
+  File "/usr/lib/python3/dist-packages/importlib_metadata/__init__.py", line 526, in distribution
+    return Distribution.from_name(distribution_name)
+  File "/usr/lib/python3/dist-packages/importlib_metadata/__init__.py", line 190, in from_name
+    dist = next(dists, None)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 739, in <genexpr>
+    path.search(prepared) for path in map(FastPath, paths)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 631, in search
+    return self.lookup(self.mtime).search(name)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/_functools.py", line 80, in wrapper
+    return cached_method(*args, **kwargs)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 641, in lookup
+    return Lookup(self)
+  File "/home/jsagx-6/.local/lib/python3.8/site-packages/setuptools/_vendor/importlib_metadata/__init__.py", line 655, in __init__
+    name = low.rpartition(".")[0].partition("-")[0]
+KeyboardInterrupt
+

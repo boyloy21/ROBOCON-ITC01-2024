@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (-) JobUnselected: {'identifier': 'buffalo_robot'}
+[0.001551] (-) JobUnselected: {'identifier': 'mr2_realsense'}
+[0.001645] (-) JobUnselected: {'identifier': 'yolobot_recognition'}
+[0.001841] (-) JobUnselected: {'identifier': 'yolov8_msgs'}
+[0.002714] (-) EventReactorShutdown: {}

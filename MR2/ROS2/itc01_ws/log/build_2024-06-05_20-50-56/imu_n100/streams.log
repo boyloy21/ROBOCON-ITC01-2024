@@ -1,0 +1,43 @@
+[0.047s] Invoking command in '/home/jsagx-6/itc01_ws/build/imu_n100': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake /home/jsagx-6/itc01_ws/src/itc01_mr2/imu_n100 -DCMAKE_INSTALL_PREFIX=/home/jsagx-6/itc01_ws/install/imu_n100
+[0.305s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.312s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.312s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.313s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.313s]   the cmake_policy command to set the policy and suppress this warning.
+[0.313s] 
+[0.314s] Call Stack (most recent call first):
+[0.314s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.314s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.314s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.315s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.315s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.315s]   CMakeLists.txt:9 (find_package)
+[0.315s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.316s] [0m
+[0.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.071s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.217s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.777s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.196s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.319s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[2.319s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[2.320s]   asked CMake to find a package configuration file provided by "serial", but
+[2.320s]   CMake did not find one.
+[2.320s] 
+[2.320s]   Could not find a package configuration file provided by "serial" with any
+[2.321s]   of the following names:
+[2.321s] 
+[2.321s]     serialConfig.cmake
+[2.321s]     serial-config.cmake
+[2.322s] 
+[2.322s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[2.322s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[2.323s]   provides a separate development package or SDK, be sure it has been
+[2.323s]   installed.
+[2.323s] 
+[2.323s] [0m
+[2.324s] -- Configuring incomplete, errors occurred!
+[2.368s] Invoked command in '/home/jsagx-6/itc01_ws/build/imu_n100' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake /home/jsagx-6/itc01_ws/src/itc01_mr2/imu_n100 -DCMAKE_INSTALL_PREFIX=/home/jsagx-6/itc01_ws/install/imu_n100

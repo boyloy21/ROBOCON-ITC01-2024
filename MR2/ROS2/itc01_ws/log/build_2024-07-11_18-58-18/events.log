@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.001582] (-) JobUnselected: {'identifier': 'mr2_launch'}
+[0.002148] (-) JobUnselected: {'identifier': 'mr2_realsense'}
+[0.002553] (-) JobUnselected: {'identifier': 'yolobot_recognition'}
+[0.002740] (-) JobUnselected: {'identifier': 'yolov8_msgs'}
+[0.002841] (buffalo_robot) JobQueued: {'identifier': 'buffalo_robot', 'dependencies': OrderedDict()}
+[0.003009] (buffalo_robot) JobStarted: {'identifier': 'buffalo_robot'}
+[0.099662] (-) TimerEvent: {}
+[0.201417] (-) TimerEvent: {}
+[0.302229] (-) TimerEvent: {}
+[0.346932] (buffalo_robot) JobEnded: {'identifier': 'buffalo_robot', 'rc': 0}
+[0.355661] (-) EventReactorShutdown: {}

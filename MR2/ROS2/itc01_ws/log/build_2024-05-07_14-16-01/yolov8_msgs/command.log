@@ -1,0 +1,4 @@
+Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs
+Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs

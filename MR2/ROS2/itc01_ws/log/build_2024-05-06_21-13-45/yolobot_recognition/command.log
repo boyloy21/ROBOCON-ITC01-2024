@@ -1,0 +1,4 @@
+Invoking command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolobot_recognition -- -j8 -l8
+Invoked command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition' returned '0': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolobot_recognition -- -j8 -l8
+Invoking command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolobot_recognition
+Invoked command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition' returned '0': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolobot_recognition

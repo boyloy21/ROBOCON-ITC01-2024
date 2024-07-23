@@ -1,0 +1,334 @@
+[0.845s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.845s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9d08eb0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9d08eb0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa9c984f0>)
+[1.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.035s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.036s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.036s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jsagx-6/itc01_ws'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['ignore', 'ignore_ament_install']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'ignore'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'ignore_ament_install'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['colcon_pkg']
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'colcon_pkg'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['colcon_meta']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'colcon_meta'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['ros']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'ros'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['cmake', 'python']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'cmake'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'python'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extensions ['python_setup_py']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2) by extension 'python_setup_py'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extension 'ignore'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extension 'ignore_ament_install'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extensions ['colcon_pkg']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extension 'colcon_pkg'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extensions ['colcon_meta']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extension 'colcon_meta'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extensions ['ros']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/buffalo_robot) by extension 'ros'
+[1.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/itc01_mr2/buffalo_robot' with type 'ros.ament_python' and name 'buffalo_robot'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extensions ['ignore', 'ignore_ament_install']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extension 'ignore'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extension 'ignore_ament_install'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extensions ['colcon_meta']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extension 'colcon_meta'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extensions ['ros']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/mr2_realsense) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/itc01_mr2/mr2_realsense' with type 'ros.ament_python' and name 'mr2_realsense'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extension 'colcon_pkg'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolobot_recognition) by extension 'ros'
+[1.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/itc01_mr2/yolobot_recognition' with type 'ros.ament_cmake' and name 'yolobot_recognition'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extension 'ignore'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extension 'ignore_ament_install'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extensions ['colcon_pkg']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extension 'colcon_pkg'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/itc01_mr2/yolov8_msgs) by extension 'ros'
+[1.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/itc01_mr2/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/foxy
+[1.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_args' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_target' from command line to 'None'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.407s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.408s] Level 5:colcon.colcon_core.verb:set package 'buffalo_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.408s] DEBUG:colcon.colcon_core.verb:Building package 'buffalo_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsagx-6/itc01_ws/build/buffalo_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsagx-6/itc01_ws/install/buffalo_robot', 'merge_install': False, 'path': '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot', 'symlink_install': False, 'test_result_base': None}
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_args' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_target' from command line to 'None'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_clean_cache' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_clean_first' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'cmake_force_configure' from command line to 'False'
+[1.410s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'ament_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'catkin_cmake_args' from command line to 'None'
+[1.411s] Level 5:colcon.colcon_core.verb:set package 'mr2_realsense' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.411s] DEBUG:colcon.colcon_core.verb:Building package 'mr2_realsense' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsagx-6/itc01_ws/build/mr2_realsense', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsagx-6/itc01_ws/install/mr2_realsense', 'merge_install': False, 'path': '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense', 'symlink_install': False, 'test_result_base': None}
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'yolobot_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.413s] DEBUG:colcon.colcon_core.verb:Building package 'yolobot_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsagx-6/itc01_ws/build/yolobot_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsagx-6/itc01_ws/install/yolobot_recognition', 'merge_install': False, 'path': '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolobot_recognition', 'symlink_install': False, 'test_result_base': None}
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.415s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.416s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jsagx-6/itc01_ws/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jsagx-6/itc01_ws/install/yolov8_msgs', 'merge_install': False, 'path': '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.416s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot' with build type 'ament_python'
+[1.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('buffalo_robot', 'ament_prefix_path')
+[1.430s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/ament_prefix_path.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/ament_prefix_path.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/ament_prefix_path.sh'
+[1.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense' with build type 'ament_python'
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('mr2_realsense', 'ament_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/ament_prefix_path.ps1'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/ament_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/ament_prefix_path.sh'
+[1.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.495s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolobot_recognition' with build type 'ament_cmake'
+[1.496s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolobot_recognition'
+[1.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolov8_msgs' with build type 'ament_cmake'
+[1.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/yolov8_msgs'
+[1.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.309s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot'
+[2.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.071s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense'
+[3.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolobot_recognition -- -j8 -l8
+[3.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[3.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition' returned '0': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolobot_recognition -- -j8 -l8
+[3.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolobot_recognition
+[3.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[3.629s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition' for CMake module files
+[3.646s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition' for CMake config files
+[3.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[3.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[3.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/build/yolobot_recognition' returned '0': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolobot_recognition
+[3.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[3.673s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib'
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/bin'
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[3.675s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/python3.8/site-packages'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/bin'
+[3.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[3.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[3.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[3.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[3.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[3.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[3.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolobot_recognition)
+[3.782s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition' for CMake module files
+[3.785s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition' for CMake config files
+[3.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolobot_recognition', 'cmake_prefix_path')
+[3.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.ps1'
+[3.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.dsv'
+[3.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/hook/cmake_prefix_path.sh'
+[3.794s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib'
+[3.795s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/bin'
+[3.795s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/pkgconfig/yolobot_recognition.pc'
+[3.796s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/lib/python3.8/site-packages'
+[3.797s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolobot_recognition/bin'
+[3.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.ps1'
+[3.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.dsv'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.sh'
+[3.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.bash'
+[3.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/yolobot_recognition/package.zsh'
+[3.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/yolobot_recognition/share/colcon-core/packages/yolobot_recognition)
+[4.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': /usr/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[4.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs
+[4.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs' for CMake module files
+[4.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': /usr/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs
+[4.571s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs' for CMake config files
+[4.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[4.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[4.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[4.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib'
+[4.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[4.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[4.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[4.585s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/bin'
+[4.585s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[4.586s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages'
+[4.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'pythonpath')
+[4.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.ps1'
+[4.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.dsv'
+[4.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.sh'
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/bin'
+[4.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[4.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[4.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[4.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[4.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[4.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[4.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[4.866s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs' for CMake module files
+[4.868s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs' for CMake config files
+[4.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[4.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[4.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[4.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[4.878s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib'
+[4.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[4.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[4.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[4.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/bin'
+[4.883s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages'
+[4.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'pythonpath')
+[4.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.ps1'
+[4.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.dsv'
+[4.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/hook/pythonpath.sh'
+[4.890s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/yolov8_msgs/bin'
+[4.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[4.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[4.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[4.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[4.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[4.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[5.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data
+[5.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data
+[7.581s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense' for CMake module files
+[7.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/mr2_realsense' returned '0': PYTHONPATH=/home/jsagx-6/itc01_ws/build/mr2_realsense/prefix_override:/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/mr2_realsense build --build-base /home/jsagx-6/itc01_ws/build/mr2_realsense/build install --record /home/jsagx-6/itc01_ws/build/mr2_realsense/install.log --install-scripts $base/lib/mr2_realsense --single-version-externally-managed install_data
+[7.585s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense' for CMake config files
+[7.588s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib'
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense/bin'
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/pkgconfig/mr2_realsense.pc'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense/lib/python3.8/site-packages'
+[7.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('mr2_realsense', 'pythonpath')
+[7.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/pythonpath.ps1'
+[7.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/pythonpath.dsv'
+[7.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/hook/pythonpath.sh'
+[7.598s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/mr2_realsense/bin'
+[7.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mr2_realsense)
+[7.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/package.ps1'
+[7.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/package.dsv'
+[7.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/package.sh'
+[7.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/package.bash'
+[7.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/mr2_realsense/share/mr2_realsense/package.zsh'
+[7.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/mr2_realsense/share/colcon-core/packages/mr2_realsense)
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot' for CMake module files
+[7.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot' returned '0': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot' for CMake config files
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot/bin'
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/pkgconfig/buffalo_robot.pc'
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages'
+[7.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('buffalo_robot', 'pythonpath')
+[7.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/pythonpath.ps1'
+[7.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/pythonpath.dsv'
+[7.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/hook/pythonpath.sh'
+[7.656s] Level 1:colcon.colcon_core.environment:checking '/home/jsagx-6/itc01_ws/install/buffalo_robot/bin'
+[7.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(buffalo_robot)
+[7.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/package.ps1'
+[7.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/package.dsv'
+[7.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/package.sh'
+[7.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/package.bash'
+[7.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/jsagx-6/itc01_ws/install/buffalo_robot/share/buffalo_robot/package.zsh'
+[7.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jsagx-6/itc01_ws/install/buffalo_robot/share/colcon-core/packages/buffalo_robot)
+[7.667s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.670s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.671s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.739s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.805s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsagx-6/itc01_ws/install/local_setup.ps1'
+[7.810s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jsagx-6/itc01_ws/install/_local_setup_util_ps1.py'
+[7.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsagx-6/itc01_ws/install/setup.ps1'
+[7.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsagx-6/itc01_ws/install/local_setup.sh'
+[7.821s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jsagx-6/itc01_ws/install/_local_setup_util_sh.py'
+[7.823s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsagx-6/itc01_ws/install/setup.sh'
+[7.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsagx-6/itc01_ws/install/local_setup.bash'
+[7.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsagx-6/itc01_ws/install/setup.bash'
+[7.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jsagx-6/itc01_ws/install/local_setup.zsh'
+[7.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jsagx-6/itc01_ws/install/setup.zsh'

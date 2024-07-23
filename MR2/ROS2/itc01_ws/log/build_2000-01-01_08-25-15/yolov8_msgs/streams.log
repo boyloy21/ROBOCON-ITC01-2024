@@ -1,0 +1,195 @@
+[1.816s] Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[2.070s] make: Warning: File 'Makefile' has modification time 769632450 s in the future
+[2.194s] make[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 769632449 s in the future
+[2.200s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__cpp.dir/progress.make' has modification time 769632449 s in the future
+[2.201s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/flags.make' has modification time 768032364 s in the future
+[2.239s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.245s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__cpp.dir/progress.make' has modification time 769632449 s in the future
+[2.248s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.249s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.272s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/flags.make' has modification time 768032364 s in the future
+[2.272s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.282s] [  2%] Built target yolov8_msgs__cpp
+[2.293s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.293s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.294s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.302s] [ 12%] Built target yolov8_msgs__rosidl_generator_c
+[2.313s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 768032364 s in the future
+[2.313s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 768032364 s in the future
+[2.337s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.339s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.344s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.346s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.351s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.351s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.352s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.361s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.361s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 768032364 s in the future
+[2.365s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.367s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 768032364 s in the future
+[2.371s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/flags.make' has modification time 768032364 s in the future
+[2.373s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.378s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.388s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.390s] [ 23%] Built target yolov8_msgs__rosidl_typesupport_cpp
+[2.391s] [ 33%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp
+[2.405s] [ 43%] Built target yolov8_msgs__rosidl_typesupport_introspection_c
+[2.412s] [ 53%] Built target yolov8_msgs__rosidl_typesupport_c
+[2.428s] [ 64%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp
+[2.440s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 768032364 s in the future
+[2.479s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.485s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 768032364 s in the future
+[2.501s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.531s] [ 74%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c
+[2.539s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs.dir/progress.make' has modification time 769632449 s in the future
+[2.574s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.579s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs.dir/progress.make' has modification time 769632449 s in the future
+[2.581s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.616s] [ 74%] Built target yolov8_msgs
+[2.624s] make[2]: Warning: File 'yolov8_msgs__py/CMakeFiles/yolov8_msgs__py.dir/progress.make' has modification time 769632449 s in the future
+[2.662s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.668s] make[2]: Warning: File 'yolov8_msgs__py/CMakeFiles/yolov8_msgs__py.dir/progress.make' has modification time 769632449 s in the future
+[2.671s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.701s] [ 76%] Built target yolov8_msgs__py
+[2.713s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__python.dir/flags.make' has modification time 768032364 s in the future
+[2.753s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.762s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__python.dir/flags.make' has modification time 768032364 s in the future
+[2.778s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.809s] [ 84%] Built target yolov8_msgs__python
+[2.820s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.821s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.821s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.863s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.864s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.866s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.868s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.870s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.873s] make[2]: Warning: File 'CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 768032363 s in the future
+[2.884s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.887s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.889s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.918s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_c__pyext
+[2.919s] [ 94%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext
+[2.920s] [100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.924s] make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.957s] make: warning:  Clock skew detected.  Your build may be incomplete.
+[2.991s] Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/yolov8_msgs -- -j8 -l8
+[3.510s] Invoking command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs
+[3.727s] -- Install configuration: ""
+[3.728s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[3.728s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.729s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.729s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.h
+[3.730s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.731s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.h
+[3.731s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[3.732s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.h
+[3.732s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.h
+[3.732s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__functions.c
+[3.733s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__functions.c
+[3.733s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[3.733s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[3.734s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.h
+[3.734s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.734s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[3.735s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[3.735s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[3.736s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.736s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.736s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.736s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[3.737s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[3.737s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.737s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[3.739s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.739s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.740s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.740s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[3.740s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[3.740s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/dds_fastrtps
+[3.741s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.742s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.743s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.743s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.744s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.744s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.744s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[3.744s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[3.745s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.c
+[3.745s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.c
+[3.745s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[3.747s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[3.748s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.749s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.749s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.750s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.750s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp
+[3.751s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[3.751s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[3.751s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[3.752s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.hpp
+[3.752s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[3.752s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[3.752s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[3.753s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/inference_result.hpp
+[3.753s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/yolov8_inference.hpp
+[3.753s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs
+[3.754s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg
+[3.754s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail
+[3.754s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[3.755s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[3.755s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp
+[3.755s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/include/yolov8_msgs/msg/detail/inference_result__type_support.cpp
+[3.755s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[3.756s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[3.756s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[3.757s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[3.758s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/__init__.py
+[3.882s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg
+[3.883s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result_s.c
+[3.883s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[3.883s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_inference_result.py
+[3.884s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/_yolov8_inference.py
+[3.884s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/msg/__init__.py
+[3.884s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.886s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.888s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/python3.8/site-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.891s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/lib/libyolov8_msgs__python.so
+[3.892s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[3.892s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[3.893s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[3.893s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[3.893s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[3.894s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[3.894s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[3.895s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[3.895s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[3.896s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[3.896s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[3.896s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[3.897s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[3.897s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[3.897s] -- Installing: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[3.897s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[3.898s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport.cmake
+[3.899s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.900s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.900s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.901s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[3.901s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.902s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_generator_cppExport.cmake
+[3.903s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.903s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.904s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[3.904s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.905s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[3.905s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.905s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.906s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.906s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.907s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.907s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.907s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[3.907s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[3.908s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[3.939s] Invoked command in '/home/jsagx-6/itc01_ws/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/yolov8_msgs

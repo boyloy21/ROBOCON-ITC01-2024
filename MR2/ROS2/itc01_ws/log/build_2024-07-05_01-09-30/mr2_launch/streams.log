@@ -1,0 +1,26 @@
+[0.049s] Invoking command in '/home/jsagx-6/itc01_ws/build/mr2_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/mr2_launch -- -j8 -l8
+[0.328s] Invoked command in '/home/jsagx-6/itc01_ws/build/mr2_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --build /home/jsagx-6/itc01_ws/build/mr2_launch -- -j8 -l8
+[0.831s] Invoking command in '/home/jsagx-6/itc01_ws/build/mr2_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/mr2_launch
+[1.024s] -- Install configuration: ""
+[1.025s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/launch
+[1.025s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/launch/mr2_auto.launch.py
+[1.026s] -- Installing: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/launch/mr2_manual.launch.py
+[1.026s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/launch/mr2_blue_auto.launch.py
+[1.027s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/launch/mr2_red_auto.launch.py
+[1.027s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/src
+[1.027s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/ament_index/resource_index/package_run_dependencies/mr2_launch
+[1.028s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/ament_index/resource_index/parent_prefix_path/mr2_launch
+[1.028s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/environment/ament_prefix_path.sh
+[1.028s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/environment/ament_prefix_path.dsv
+[1.029s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/environment/path.sh
+[1.029s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/environment/path.dsv
+[1.029s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/local_setup.bash
+[1.030s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/local_setup.sh
+[1.030s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/local_setup.zsh
+[1.030s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/local_setup.dsv
+[1.030s] -- Installing: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/package.dsv
+[1.031s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/ament_index/resource_index/packages/mr2_launch
+[1.031s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/cmake/mr2_launchConfig.cmake
+[1.031s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/cmake/mr2_launchConfig-version.cmake
+[1.031s] -- Up-to-date: /home/jsagx-6/itc01_ws/install/mr2_launch/share/mr2_launch/package.xml
+[1.062s] Invoked command in '/home/jsagx-6/itc01_ws/build/mr2_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jsagx-6/itc01_ws/install/mr2_realsense:/home/jsagx-6/itc01_ws/install/buffalo_robot:/opt/ros/foxy /home/jsagx-6/.local/bin/cmake --install /home/jsagx-6/itc01_ws/build/mr2_launch

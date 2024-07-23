@@ -1,0 +1,39 @@
+[2.355s] Invoking command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data
+[3.052s] Traceback (most recent call last):
+[3.052s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2859, in get_entry_map
+[3.053s]     ep_map = self._ep_map
+[3.055s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2817, in __getattr__
+[3.055s]     raise AttributeError(attr)
+[3.055s] AttributeError: _ep_map
+[3.056s] 
+[3.056s] During handling of the above exception, another exception occurred:
+[3.056s] 
+[3.056s] Traceback (most recent call last):
+[3.057s]   File "setup.py", line 6, in <module>
+[3.057s]     setup(
+[3.057s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 143, in setup
+[3.058s]     _install_setup_requires(attrs)
+[3.058s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 131, in _install_setup_requires
+[3.058s]     dist = distutils.core.Distribution(dict(
+[3.059s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 445, in __init__
+[3.059s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[3.059s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 657, in <genexpr>
+[3.060s]     for entry in dist.get_entry_map(group).values()
+[3.060s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2861, in get_entry_map
+[3.060s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[3.060s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2529, in parse_map
+[3.061s]     for group, lines in data:
+[3.061s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3201, in split_sections
+[3.061s]     for line in yield_lines(s):
+[3.062s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2389, in yield_lines
+[3.062s]     for ss in strs:
+[3.062s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2769, in _get_metadata
+[3.063s]     for line in self.get_metadata_lines(name):
+[3.063s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1433, in get_metadata_lines
+[3.063s]     return yield_lines(self.get_metadata(name))
+[3.064s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1421, in get_metadata
+[3.064s]     value = self._get(path)
+[3.064s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1617, in _get
+[3.065s]     with open(path, 'rb') as stream:
+[3.065s] KeyboardInterrupt
+[3.114s] Invoked command in '/home/jsagx-6/itc01_ws/src/itc01_mr2/buffalo_robot' returned '-2': PYTHONPATH=/home/jsagx-6/itc01_ws/build/buffalo_robot/prefix_override:/home/jsagx-6/itc01_ws/install/buffalo_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/buffalo_robot build --build-base /home/jsagx-6/itc01_ws/build/buffalo_robot/build install --record /home/jsagx-6/itc01_ws/build/buffalo_robot/install.log --install-scripts $base/lib/buffalo_robot --single-version-externally-managed install_data
