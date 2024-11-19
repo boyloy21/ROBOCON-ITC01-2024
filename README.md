@@ -8,7 +8,7 @@ _ Both​ robot combined weight's 50kg
 
 ## GAME Field:
 
-https://github.com/user-attachments/assets/3dc3ed58-e77c-4f6d-865b-ea63f799cfbb
+![gamefield](https://github.com/user-attachments/assets/18b4a525-6631-478e-ad32-5df222f335cd)
 
 ## My Team: have 5 Part <br>
 ​   - Mechanic : 4 member
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/3dc3ed58-e77c-4f6d-865b-ea63f799cfbb
 # Video Testing Start from Zero to End:
 ## Version1:
 
-https://github.com/user-attachments/assets/227b65fc-6da7-4e57-a6a3-867281eca46a
+https://github.com/user-attachments/assets/3dc3ed58-e77c-4f6d-865b-ea63f799cfbb
 
 ## Testing Mecanum Wheel With PID Controller on Point to Point:
 
