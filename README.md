@@ -11,11 +11,11 @@ _ Both​ robot combined weight's 50kg
 ![gamefield](https://github.com/user-attachments/assets/18b4a525-6631-478e-ad32-5df222f335cd)
 
 ## My Team: have 5 Part
-_ Mechanic : 4 member
-_ Electronic : 4 member
-_ Program : 4 member
-_ Accounting: 1 member
-_ Supporter: 3 member
+​   - Mechanic : 4 member
+   - Electronic : 4 member
+   - Program : 4 member
+   - Accounting: 1 member
+   - Supporter: 3 member
 
 ![teamrobocon](https://github.com/user-attachments/assets/5d0f267c-2f1e-41d7-80c9-47943a025e90)
 
