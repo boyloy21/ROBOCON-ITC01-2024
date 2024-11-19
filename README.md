@@ -8,7 +8,7 @@ _ Both​ robot combined weight's 50kg
 
 ## GAME Field:
 
-![gamefield](https://github.com/user-attachments/assets/18b4a525-6631-478e-ad32-5df222f335cd)
+https://github.com/user-attachments/assets/3dc3ed58-e77c-4f6d-865b-ea63f799cfbb
 
 ## My Team: have 5 Part <br>
 ​   - Mechanic : 4 member
