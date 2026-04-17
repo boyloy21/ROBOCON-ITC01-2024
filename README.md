@@ -12,7 +12,6 @@
 <p align="center">
   <em>Official firmware repository for Team <strong>ITC01</strong> — Institute of Technology of Cambodia<br>
   Competing in the <strong>11th Cambodia Robocon 2024</strong> & <strong>ABU Robocon 2024 "Harvest Day"</strong><br>
-  Hosted in Quang Ninh, Vietnam 🇻🇳</em>
 </p>
 
 ---
