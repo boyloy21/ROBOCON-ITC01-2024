@@ -26,17 +26,8 @@
 - [Repository Structure](#-repository-structure)
 - [System Architecture](#-system-architecture)
 - [Hardware Stack](#-hardware-stack)
-- [Software Modules](#-software-modules)
-  - [Motor Control](#motor-control)
-  - [PID Controller](#pid-controller)
-  - [MPC Controller (V1)](#mpc-controller-v1)
-  - [CAN Bus Communication](#can-bus-communication)
-  - [IMU & Odometry](#imu--odometry)
-  - [Autonomous Navigation & Perception](#autonomous-navigation--perception)
-  - [Remote Control (RC)](#remote-control-rc)
 - [Result Videos](#-result-videos)
 - [Getting Started](#-getting-started)
-- [Pin Configuration](#-pin-configuration)
 - [Team Members](#-team-members)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -123,21 +114,6 @@ MR1 has been developed in **two drive configurations**:
 | Motor Type | DC Brushed Motor with Encoder |
 | Communication | CAN Bus (inter-board) + RC Receiver |
 
-##### MR1 V1 Drive Kinematics (4-Wheel Mecanum)
-
-```
-      FL Motor ╔═══════╗ FR Motor
-        (↗)    ║       ║   (↘)
-               ║  MR1  ║
-        (↘)    ║       ║   (↗)
-      RL Motor ╚═══════╝ RR Motor
-
-  Vx  =  (V_FL + V_FR + V_RL + V_RR) / 4
-  Vy  =  (-V_FL + V_FR + V_RL - V_RR) / 4
-  Wz  =  (-V_FL + V_FR - V_RL + V_RR) / (4 * (Lx + Ly))
-```
-
----
 
 #### MR1 — V2: 4-Wheel Omni Drive (Alternate)
 
@@ -149,22 +125,6 @@ MR1 has been developed in **two drive configurations**:
 | Main MCU | STM32F4xx |
 | Motor Type | DC Brushed Motor with Encoder |
 | Communication | CAN Bus (inter-board) + RC Receiver |
-
-##### MR1 V2 Drive Kinematics (4-Wheel Omni)
-
-```
-        Motor 1 (90°)
-             ↑
-  Motor 4  ╔═══════╗  Motor 2
-   (180°)  ║       ║   (0°)
-           ║  MR1  ║
-           ╚═══════╝
-        Motor 3 (270°)
-
-  Vx  =  (-V1 + V3) / 2
-  Vy  =  (-V2 + V4) / 2
-  Wz  =  (V1 + V2 + V3 + V4) / (4 * R)
-```
 
 ---
 
@@ -191,24 +151,6 @@ MR2 is the **fully autonomous robot** — it navigates, detects balls by color u
 | Perception | Intel RealSense Camera (Color + Depth) |
 | Navigation | IMU (Gyroscope) + Encoder Odometry |
 | Communication | CAN Bus (inter-board) |
-
-#### MR2 Drive Kinematics (4-Wheel Omni)
-
-```
-        Motor 1 (90°)
-             ↑
-  Motor 4  ╔═══════╗  Motor 2
-   (180°)  ║       ║   (0°)
-           ║  MR2  ║
-           ╚═══════╝
-        Motor 3 (270°)
-
-  Vx  =  (-V1 + V3) / 2
-  Vy  =  (-V2 + V4) / 2
-  Wz  =  (V1 + V2 + V3 + V4) / (4 * R)
-```
-
----
 
 #### MR2 Autonomous Controller Versions
 
@@ -264,160 +206,80 @@ MR2 operates through the following perception-to-action pipeline:
 │  └─────────────────────┘                                         │
 └──────────────────────────────────────────────────────────────────┘
 ```
-
-##### Perception Logic (Pseudocode)
-
-```c
-// perception.c — Ball detection and color classification
-BallResult_t Perception_DetectBall(RealSenseFrame_t *frame) {
-    BallResult_t result = {0};
-
-    // Step 1: Detect ball in RGB frame
-    if (!ColorDetector_FindBall(frame->rgb, &result.bbox)) {
-        return result;   // No ball found
-    }
-
-    // Step 2: Classify color
-    ColorClass_t color = ColorDetector_Classify(frame->rgb, &result.bbox);
-
-    if (color == COLOR_RED || color == COLOR_BLUE) {
-        result.valid     = true;          // ✅ Proceed to catch
-        result.color     = color;
-        result.distance  = DepthEstimate(frame->depth, &result.bbox);
-    } else {
-        // COLOR_PURPLE or unknown → ignore
-        result.valid     = false;         // ❌ Skip
-    }
-
-    return result;
-}
-```
-
-##### MR2 Autonomous State Machine
-
-```c
-// navigation.c — MR2 autonomous state machine
-typedef enum {
-    STATE_IDLE = 0,
-    STATE_SCAN_FOR_BALL,        // Rotate/search for a valid ball
-    STATE_MOVE_TO_BALL,         // Navigate toward detected ball
-    STATE_CATCH_BALL,           // Activate collector mechanism
-    STATE_MOVE_TO_SILO,         // Navigate to correct silo (by color)
-    STATE_DEPOSIT_BALL,         // Release ball into silo
-    STATE_RETURN_TO_SCAN,       // Return to scanning position
-    STATE_COMPLETE
-} NavState_t;
-
-void Navigation_Run(void) {
-    switch (nav_state) {
-        case STATE_IDLE:
-            if (start_signal) nav_state = STATE_SCAN_FOR_BALL;
-            break;
-
-        case STATE_SCAN_FOR_BALL: {
-            BallResult_t ball = Perception_DetectBall(&current_frame);
-            if (ball.valid) {
-                target_ball  = ball;
-                nav_state    = STATE_MOVE_TO_BALL;
-            }
-            // else: keep scanning (rotate slowly)
-            break;
-        }
-
-        case STATE_MOVE_TO_BALL:
-            if (MoveTowardBall(&target_ball))
-                nav_state = STATE_CATCH_BALL;
-            break;
-
-        case STATE_CATCH_BALL:
-            Collector_Activate();
-            if (CatchComplete()) nav_state = STATE_MOVE_TO_SILO;
-            break;
-
-        case STATE_MOVE_TO_SILO: {
-            Position_t silo_pos = GetSiloPosition(target_ball.color);
-            if (MoveToPosition(silo_pos.x, silo_pos.y, silo_pos.heading))
-                nav_state = STATE_DEPOSIT_BALL;
-            break;
-        }
-
-        case STATE_DEPOSIT_BALL:
-            Depositor_Activate();
-            if (DepositComplete()) nav_state = STATE_RETURN_TO_SCAN;
-            break;
-
-        case STATE_RETURN_TO_SCAN:
-            if (MoveToPosition(SCAN_X, SCAN_Y, SCAN_HEADING))
-                nav_state = STATE_SCAN_FOR_BALL;
-            break;
-
-        default: break;
-    }
-}
-```
-
----
-
-#### MR2 Mechanical Mechanisms
-- **Ball Collector** — scoops and collects balls (Red / Blue) detected by camera
-- **4-Wheel Omni Drive Base** — omnidirectional autonomous navigation
-- **Silo Depositor** — transfers collected balls into the correct color-matched silo
-- **Intel RealSense Mount** — fixed front-facing camera bracket for perception
-
----
-
 ## 📁 Repository Structure
 
 ```
 ROBOCON-ITC01-2024/
 │
-├── MR1_Robot/                      # Manual Robot — Semi-autonomous
-│   ├── V1_Mecanum/                 # Primary: 4-Wheel Mecanum Drive
-│   │   ├── Core/
-│   │   │   ├── Src/
-│   │   │   │   ├── main.c
-│   │   │   │   ├── motor_control.c
-│   │   │   │   ├── pid_controller.c
-│   │   │   │   ├── mecanum_drive.c     # 4-wheel mecanum kinematics
-│   │   │   │   ├── can_comm.c
-│   │   │   │   └── rc_receiver.c
-│   │   │   └── Inc/
-│   │   └── MR1_V1.ioc
-│   │
-│   └── V2_Omni/                    # Alternate: 4-Wheel Omni Drive
-│       ├── Core/
-│       │   ├── Src/
-│       │   │   ├── main.c
-│       │   │   ├── motor_control.c
-│       │   │   ├── pid_controller.c
-│       │   │   ├── omni4_drive.c       # 4-wheel omni kinematics
-│       │   │   ├── can_comm.c
-│       │   │   └── rc_receiver.c
-│       │   └── Inc/
-│       └── MR1_V2.ioc
+├── MR1/                      # Manual Robot — Semi-autonomous
+│   ├── ROS2/               
+│   │   ├── farmer_launch/
+│   │   │   │   ├── farmer_blue.launch.py
+│   │   │   │   ├── farmer_red.launch.py
+│   │   ├── farmer_robot/
+│   │   │   │   ├── Farmer_CAN.py         (CAN communication with STM32)
+│   │   │   │   ├── Farmer_CANV2.py
+│   │   │   │   ├── Farmer_PID_Blue.py    (Main File to run all process)
+│   │   │   │   ├── Farmer_PID_Red.py
+│   │   │   │   ├── Farmer_PID_RedV2.py
+│   │   │   │   ├── Farmer_PS4.py         (PS4 Remote Control)
+│   │   │   │   └── Omni_Farmer.py        (Omni wheel model)
+│   │   │   │   └── mecanum_armer.py      (Mecanum wheel model)
+│   │   │   │   └── pid_controller.py
+│   ├── STM32/               # Primary: 4-Wheel Mecanum Drive
+│   │   ├── ESP43-STM32F407/              (Recive data from ESP32 to STM32 Using UART) 
+│   │   ├── ESP43-RemoteControl/          (Transmition data ESP32 to STM32)
+│   │   ├── Main_Board_Farmer/              (Main Board when robot not using Mini-PC) 
+│   │   ├── Main_Board_Farmer_ROS/          (When Robot Using Mini PC and take using with ROS2)
+│   │   ├── Motor1_2_Farmer/              (Control DC Motor(1, 2) using with PI control of Motor) 
+│   │   ├── Motor3_4_Farmer/          (Control DC Motor(3,4) using with PI control of Motor)
+│   │   ├── Motor1_2_Farmer/              (Control DC Motor(1, 2) using with PI control of Motor) 
+│   │   ├── Shooter_Farmer/          (Control Mechanicsim for Shooting ball)
+│   │   ├── collect_Rice/          (Control Mechanicsim for Collect Rice (air))
+│   │   ├── joystick_contrller2/          (stm32 remote control to robot using NRF4l01)
 │
 ├── MR2_Robot/                      # Autonomous Robot — Fully Autonomous
-│   ├── Core/
-│   │   ├── Src/
-│   │   │   ├── main.c              # Main loop & state machine
-│   │   │   ├── motor_control.c
-│   │   │   ├── omni4_drive.c       # 4-wheel omni kinematics
-│   │   │   ├── imu_driver.c        # IMU / gyroscope interface
-│   │   │   ├── odometry.c          # Encoder-based position tracking
-│   │   │   ├── navigation.c        # Autonomous state machine
-│   │   │   ├── perception.c        # RealSense color & ball detection
-│   │   │   ├── pid_controller.c    # PID speed/position loop (V2 — final)
-│   │   │   ├── mpc_controller.c    # MPC trajectory control (V1 — testing)
-│   │   │   └── can_comm.c
-│   │   └── Inc/
-│   └── MR2_Robot.ioc
-│
-├── Shared/                         # Code shared between MR1 and MR2
-│   ├── pid.c / pid.h
-│   ├── can_protocol.h              # CAN message ID definitions
-│   └── motor_driver.c / .h
-│
-└── README.md
+│   ├── ROS2/itc01_ws/src/itc01_mr2
+│   │   ├── buffalo_robot/
+│   │   │   ├── buffalo_robot/
+│   │   │   │   ├── Calculate_position_Red.py         (CAN communication with STM32)
+│   │   │   │   ├── EKF.py
+│   │   │   │   ├── Omni_PidSim.py    (Main File to run all process)
+│   │   │   │   ├── Omni_kinematic.py
+│   │   │   │   ├── Omni_model.py
+│   │   │   │   ├── Path1.csv         (path trajectory test in CSV)
+│   │   │   │   └── Path_gamefield1.csv        (path trajectory real in CSV)
+│   │   │   │   └── Path_lab1.csv        (path trajectory test in lab in CSV)
+│   │   │   │   └── bezier_path.py      (Generate trajectory using Bezier_path start and end point)
+│   │   │   │   └── can_buffalo_bBue.py
+│   │   │   │   └── can_buffalo_Red.py
+│   │   │   │   └── cubic_spline_planner.py
+│   │   │   │   └── ekf.py
+│   │   │   │   └── imu_HFI_a9.py     (ROS IMU Read)
+│   │   │   │   └── imu_calibrate.py
+│   │   │   │   └── mecanum_kinematic.py     (Kinematic of Mecanum Wheel (Inverse and Forward))
+│   │   │   │   └── mecanum_pidV2.py         (Base Postion control of Menaum wheel with PID)
+│   │   │   │   └── mpc_omni.py         (Base Postion control of Omni wheel with MPC)
+│   │   │   │   └── omni_pidV6_Blue.py         (Final code to main run in area blue using PID)
+│   │   │   │   └── omni_pidV6_RED.py         (Final code to main run in area red using PID)
+│   │   │   ├── launch/
+│   │   │   │   └── omni_manual.launch.py         (Testing manual check system)
+│   │   │   │   └── omni_mpc.launch.py         (Omni running with MPC Controller)
+│   │   │   │   └── omni_pid.launch.py         (Omni running with PID controller)
+|
+│   │   ├── mr2_realsense/
+│   │   │   ├── mr2_realsense/run/detect/train
+│   │   │   │   ├── util.py         ()
+│   │   │   │   ├── val.py         ()
+│   │   │   │   ├── yolov8_rs_blue.py         (Detect blue ball and find postion)
+│   │   │   │   ├── yolov8_rs_blue.py                 (Detect red ball and find postion)
+|
+│   ├── STM32/               # Primary: 4-Wheel Mecanum Drive
+│   │   ├── Main_board_Buffalo/              (Main board of Buffalo) 
+│   │   ├── Motor1_2_Baffalo/              (Control DC Motor(1, 2) using with PI control of Motor) 
+│   │   ├── Motor3_4_Buffalo/          (Control DC Motor(3,4) using with PI control of Motor)
+│   │   ├── Sensor/              (Read Sensor 2-Laser, Approximately sensor)
+│   │   ├── shooter_buffalo/              (Control shooter Motor ) 
 ```
 
 ---
@@ -434,7 +296,7 @@ ROBOCON-ITC01-2024/
 │              ↓       ↓        ↓       ↓                    │
 │           Motor FL  Motor FR  Motor RL  Motor RR           │
 │          (Encoder) (Encoder) (Encoder) (Encoder)           │
-│           ← H-Bridge Drivers / PID Speed Loop →            │
+│           ← bts7960 Drivers / PID Speed Loop →            │
 │                                                            │
 │    [V1: Mecanum Drive]  |  [V2: 4-Wheel Omni Drive]        │
 │          Gripper Servo / Mechanism GPIO                    │
@@ -504,167 +366,6 @@ ROBOCON-ITC01-2024/
 
 ---
 
-## 💻 Software Modules
-
-### Motor Control
-
-PWM-based speed control via STM32 Timer, with GPIO direction control.
-
-```c
-// motor_control.c — Set motor speed and direction
-void Motor_Set(Motor_t *motor, int16_t speed) {
-    if (speed >= 0) {
-        HAL_GPIO_WritePin(motor->in1_port, motor->in1_pin, GPIO_PIN_SET);
-        HAL_GPIO_WritePin(motor->in2_port, motor->in2_pin, GPIO_PIN_RESET);
-    } else {
-        HAL_GPIO_WritePin(motor->in1_port, motor->in1_pin, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(motor->in2_port, motor->in2_pin, GPIO_PIN_SET);
-        speed = -speed;
-    }
-    __HAL_TIM_SET_COMPARE(motor->htim, motor->channel, (uint16_t)speed);
-}
-```
-
----
-
-### PID Controller
-
-Discrete PID implementation for closed-loop speed regulation — used in **MR2 V2 (Final)** and **MR1**.
-
-```c
-// pid_controller.c — Generic PID compute
-float PID_Compute(PID_t *pid, float setpoint, float measurement) {
-    float error      = setpoint - measurement;
-    pid->integral   += error * pid->dt;
-    pid->integral    = CLAMP(pid->integral, -pid->integral_limit, pid->integral_limit);
-    float derivative = (error - pid->prev_error) / pid->dt;
-    float output     = pid->Kp * error
-                     + pid->Ki * pid->integral
-                     + pid->Kd * derivative;
-    pid->prev_error  = error;
-    return CLAMP(output, -pid->output_limit, pid->output_limit);
-}
-```
-
-#### Recommended Starting Gains
-
-| Robot | Version | Kp | Ki | Kd |
-|-------|---------|----|----|----|
-| MR1 (Mecanum V1) | — | 2.0 | 0.5 | 0.05 |
-| MR1 (Omni V2)    | — | 2.0 | 0.5 | 0.05 |
-| MR2 (Omni — PID V2) | Final | 2.5 | 0.8 | 0.08 |
-
----
-
-### MPC Controller (V1)
-
-Model Predictive Control tested for **MR2 V1** — predicts future states over a horizon and minimises a cost function for smoother trajectory tracking.
-
-```c
-// mpc_controller.c — MPC compute (simplified horizon loop)
-void MPC_Compute(MPC_t *mpc, float x_ref[], float x_curr[]) {
-    // Predict states over horizon N using discrete model
-    for (int k = 0; k < MPC_HORIZON; k++) {
-        mpc->X_pred[k+1] = A * mpc->X_pred[k] + B * mpc->U[k];
-    }
-    // Minimise cost: J = sum(||x_ref - x_pred||_Q + ||u||_R)
-    MPC_SolveQP(mpc);   // Quadratic programming solver
-    // Apply first control input
-    mpc->output = mpc->U[0];
-}
-```
-
-> ⚠️ **Note:** MPC V1 is used for research/testing purposes. The **PID V2** build is the final competition firmware.
-
----
-
-### CAN Bus Communication
-
-All boards communicate via **CAN 1 Mbps**. Each robot has a defined set of message IDs.
-
-```c
-// can_protocol.h — Message ID definitions
-#define CAN_ID_MR1_SPEED_CMD    0x101   // MR1 → Motor Board: speed setpoints
-#define CAN_ID_MR1_STATUS       0x102   // MR1 Motor Board → Main: encoder feedback
-#define CAN_ID_MR2_SPEED_CMD    0x201   // MR2 → Motor Board: speed setpoints
-#define CAN_ID_MR2_STATUS       0x202   // MR2 Motor Board → Main: encoder feedback
-#define CAN_ID_MR2_NAV_STATE    0x210   // MR2 Navigation state broadcast
-#define CAN_ID_ESTOP            0x7FF   // Emergency STOP (all nodes)
-```
-
-```c
-// Send speed commands to motor board
-void CAN_SendSpeedCmd(uint16_t id, int16_t v1, int16_t v2, int16_t v3, int16_t v4) {
-    uint8_t data[8];
-    data[0] = (v1 >> 8) & 0xFF;  data[1] = v1 & 0xFF;
-    data[2] = (v2 >> 8) & 0xFF;  data[3] = v2 & 0xFF;
-    data[4] = (v3 >> 8) & 0xFF;  data[5] = v3 & 0xFF;
-    data[6] = (v4 >> 8) & 0xFF;  data[7] = v4 & 0xFF;
-    CAN_SendMessage(id, data, 8);
-}
-```
-
----
-
-### IMU & Odometry
-
-Used by **MR2** for autonomous heading control and dead-reckoning position tracking.
-
-```c
-// imu_driver.c — Read yaw from MPU6050 via I2C
-float IMU_GetYaw(void) {
-    int16_t raw_gz;
-    MPU6050_ReadGyroZ(&raw_gz);
-    float gz_dps = raw_gz / 131.0f;               // Convert to °/s
-    yaw += gz_dps * SAMPLE_TIME_S;                 // Integrate
-    return yaw;
-}
-
-// odometry.c — Update robot position from 4-wheel omni encoder ticks
-void Odometry_Update(Odometry_t *odom, int32_t enc_1, int32_t enc_2,
-                                        int32_t enc_3, int32_t enc_4) {
-    float vx =  (-enc_1 + enc_3) * DIST_PER_TICK / 2.0f;
-    float vy =  (-enc_2 + enc_4) * DIST_PER_TICK / 2.0f;
-    odom->x += vx * cosf(odom->theta) - vy * sinf(odom->theta);
-    odom->y += vx * sinf(odom->theta) + vy * cosf(odom->theta);
-}
-```
-
----
-
-### Autonomous Navigation & Perception
-
-See the full pipeline and state machine in the [MR2 section above](#mr2-autonomous-robot-fully-autonomous).
-
-Key components:
-- **Intel RealSense** — provides RGB + depth frames
-- **Color Classifier** — identifies Red / Blue (valid) vs Purple (ignore)
-- **Navigation State Machine** — transitions from scan → move → catch → silo → deposit
-- **MPC (V1)** / **PID (V2 Final)** — trajectory and speed control
-
----
-
-### Remote Control (RC)
-
-MR1 reads RC input from a **FlySky FS-i6X** transmitter via the **iBUS protocol** over UART.
-
-```c
-// rc_receiver.c — Parse iBUS channel values
-void RC_ParseIBUS(uint8_t *buf) {
-    // iBUS frame: 0x20 0x40 | CH1_L CH1_H | CH2_L CH2_H | ...
-    for (int ch = 0; ch < 10; ch++) {
-        rc_channels[ch] = buf[2 + ch*2] | (buf[3 + ch*2] << 8);
-    }
-}
-
-// Map channel value (1000–2000) to speed (-MAX_SPEED to +MAX_SPEED)
-int16_t RC_MapToSpeed(uint16_t channel_val) {
-    return (int16_t)((channel_val - 1500) * MAX_SPEED / 500);
-}
-```
-
----
-
 ## 🎥 Result Videos
 
 Testing videos for **MR1** and **MR2** are documented in the GitHub issue below:
@@ -727,27 +428,6 @@ Flash:  Run → Debug (F11) or Run → Run (Ctrl+F11)
 - [ ] Verify Emergency STOP button is accessible and functional on both robots
 
 ---
-
-## 📌 Pin Configuration
-
-### MR1 — STM32F407 Pin Map (4-Wheel Drive)
-
-| Pin | Function | Description |
-|-----|----------|-------------|
-| PA8 | TIM1_CH1 (PWM) | Motor FL speed |
-| PA9 | TIM1_CH2 (PWM) | Motor FR speed |
-| PA10 | TIM1_CH3 (PWM) | Motor RL speed |
-| PA11 | TIM1_CH4 (PWM) | Motor RR speed |
-| PB0 | GPIO OUT | Motor FL IN1 |
-| PB1 | GPIO OUT | Motor FL IN2 |
-| PB2 | GPIO OUT | Motor FR IN1 |
-| PB3 | GPIO OUT | Motor FR IN2 |
-| PA11 | CAN1_RX | CAN Bus RX |
-| PA12 | CAN1_TX | CAN Bus TX |
-| PA2 | USART2_TX | RC UART TX (debug) |
-| PA3 | USART2_RX | RC UART RX (iBUS input) |
-| TIM3 | Encoder Mode | Motor FL encoder |
-| TIM4 | Encoder Mode | Motor FR encoder |
 
 ### MR2 — STM32F407 Pin Map (4-Wheel Omni + RealSense)
 
