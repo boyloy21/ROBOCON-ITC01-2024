@@ -286,46 +286,17 @@ ROBOCON-ITC01-2024/
 
 ## 🏗 System Architecture
 
-```
-┌────────────────────────────────────────────────────────────┐
-│                       MR1 (Manual Robot)                   │
-│                                                            │
-│  RC Receiver ──→ STM32 Main MCU ──→ CAN Bus               │
-│                      │                                     │
-│              ┌───────┼────────┐                            │
-│              ↓       ↓        ↓       ↓                    │
-│           Motor FL  Motor FR  Motor RL  Motor RR           │
-│          (Encoder) (Encoder) (Encoder) (Encoder)           │
-│           ← bts7960 Drivers / PID Speed Loop →            │
-│                                                            │
-│    [V1: Mecanum Drive]  |  [V2: 4-Wheel Omni Drive]        │
-│          Gripper Servo / Mechanism GPIO                    │
-└────────────────────────────────────────────────────────────┘
+<p align="center">
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR1_SystemArchitecture?raw=true" alt="MR1 System Architecture" width="800"/>
+  <br>
+  <em>MR1 — System Architecture</em>
+</p>
 
-┌────────────────────────────────────────────────────────────┐
-│                   MR2 (Autonomous Robot)                   │
-│                                                            │
-│  RealSense Camera ──→ Perception Module                    │
-│       (Color + Depth)    │                                 │
-│                          ↓                                 │
-│             Ball Detection & Color Classification          │
-│             (Red/Blue ✅ → catch | Purple ❌ → skip)       │
-│                          │                                 │
-│  IMU (Gyro) ──→ STM32 Main MCU ──→ CAN Bus                │
-│  Encoders ──→       │                                      │
-│              Navigation State Machine                      │
-│              [V1: MPC]  |  [V2: PID — Final]               │
-│                      │                                     │
-│      ┌───────────────┼───────────────┐                     │
-│      ↓               ↓               ↓          ↓          │
-│   Motor 1         Motor 2         Motor 3    Motor 4       │
-│  (Encoder)       (Encoder)       (Encoder)  (Encoder)      │
-│              4-Wheel Omni Drive Base                       │
-│                                                            │
-│          Collector & Depositor Mechanism                   │
-└────────────────────────────────────────────────────────────┘
-```
-
+<p align="center">
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR2_SystemArchitecture?raw=true" alt="MR2 System Architecture" width="800"/>
+  <br>
+  <em>MR2 — System Architecture<</em>
+</p>
 ---
 
 ## 🔧 Hardware Stack
