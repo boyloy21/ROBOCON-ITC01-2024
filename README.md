@@ -287,15 +287,15 @@ ROBOCON-ITC01-2024/
 ## 🏗 System Architecture
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR1_SystemArchitecture.png?raw=true" alt="MR1 System Architecture" width="800"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR1_SystemArchitecture.png?raw=true" alt="MR1 System Architecture" width="1000"/>
   <br>
   <em>MR1 — System Architecture</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR2_SystemArchitecture.png?raw=true" alt="MR2 System Architecture" width="800"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/MR2_SystemArchitecture.png?raw=true" alt="MR2 System Architecture" width="1000"/>
   <br>
-  <em>MR2 — System Architecture<</em>
+  <em>MR2 — System Architecture</em>
 </p>
 ---
 
