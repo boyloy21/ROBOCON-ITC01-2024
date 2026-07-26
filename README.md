@@ -334,7 +334,7 @@ ROBOCON-ITC01-2024/
 
 | Component | Specification |
 |-----------|---------------|
-| MCU | STM32F407VGT6 / STM32F401 |
+| MCU | STM32F103c8t6 / STM32F401 |
 | Clock | Up to 168 MHz (STM32F407) |
 | Flash | 1 MB |
 | RAM | 192 KB |
@@ -346,21 +346,20 @@ ROBOCON-ITC01-2024/
 | Component | Role | Qty |
 |-----------|------|-----|
 | DC Gear Motor + Encoder | Drive wheels (MR1: 4, MR2: 4) | 8 |
-| L298N / BTS7960 H-Bridge | Motor driver | 4–8 |
-| Servo Motor (MG996R) | Gripper & mechanisms | 2–4 |
-| BLDC Motor + ESC | High-speed mechanism (if applicable) | TBD |
+| BTS7960 with STM32F103c8t6 | Motor driver | 4–8 |
+| Air solenoid | Gripper & mechanisms  | 1-2|
+| Air Driver | Driver to control Air | 2–4 |
 
 ### Sensors & Peripherals
 
 | Component | Purpose |
 |-----------|---------|
 | **Intel RealSense Camera** | Ball detection & color classification for MR2 |
-| MPU6050 / ICM-20602 IMU | Heading / gyroscope for MR2 navigation |
-| Incremental Encoder (600 PPR) | Motor speed & position feedback |
-| TJA1050 CAN Transceiver | CAN Bus inter-board communication |
-| FlySky FS-i6X RC Transmitter | Manual control of MR1 |
-| IBUSS / SBUS Receiver | RC signal decoding |
+| Bno055 / IMU-ROS| Heading / find yaw angle of robot |
+| Rotary Encoder | Calculate position X, Y of robot |
+| SICK Laser | Calculate positon robot with Wall | 
 | Limit Switches | Mechanism end-stop detection |
+| TJA1050 CAN Transceiver | CAN Bus inter-board communication |
 | LiPo Battery (3S / 4S) | Main power source |
 | DC-DC Buck Converter | 24V → 12V / 5V regulation |
 
@@ -380,7 +379,7 @@ The issue contains:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -429,22 +428,6 @@ Flash:  Run → Debug (F11) or Run → Run (Ctrl+F11)
 
 ---
 
-### MR2 — STM32F407 Pin Map (4-Wheel Omni + RealSense)
-
-| Pin | Function | Description |
-|-----|----------|-------------|
-| PA8–PA11 | TIM1_CH1–CH4 (PWM) | Motor 1/2/3/4 speed |
-| PB0–PB7 | GPIO OUT | Motor IN1/IN2 × 4 |
-| PA11 | CAN1_RX | CAN Bus RX |
-| PA12 | CAN1_TX | CAN Bus TX |
-| PB6 | I2C1_SCL | IMU (MPU6050) |
-| PB7 | I2C1_SDA | IMU (MPU6050) |
-| TIM3–TIM5 | Encoder Mode | Wheel encoders |
-| USB OTG / UART | RealSense Interface | Camera data stream to perception module |
-
-> 📝 Full pin maps are defined in the `.ioc` files in each robot's project folder.
-
----
 
 ## 👥 Team Members
 
@@ -454,12 +437,12 @@ Flash:  Run → Debug (F11) or Run → Run (Ctrl+F11)
 |------|---------------|
 | 🧠 Team Leader | Overall coordination, strategy |
 | ⚙️ Embedded Software | STM32 firmware, motor control, PID / MPC |
-| 🔌 Electronics | PCB design, wiring, power system |
-| 🔩 Mechanical | Robot frame, mechanisms, CAD design |
 | 🕹 Control System | Autonomous navigation, perception, RC tuning |
 | 👁 Computer Vision | RealSense integration, color detection |
+| 🔌 Electronics | PCB design, wiring, power system |
+| 🔩 Mechanical | Robot frame, mechanisms, CAD design |
 
-> We are students from the **Department of Electrical & Energy Engineering**, Institute of Technology of Cambodia (ITC), Phnom Penh 🇰🇭
+> We are students from the **Department of Electrical & Automation Engineering**, Institute of Technology of Cambodia (ITC), Phnom Penh 🇰🇭
 
 ---
 
@@ -472,15 +455,6 @@ This is an active competition project. Contributions and suggestions are welcome
 3. Commit: `git commit -m "Improve: description"`
 4. Push: `git push origin feature/improvement-name`
 5. Open a **Pull Request**
-
-### Future Improvement Ideas
-- LiDAR-based obstacle avoidance for MR2
-- ROS2 integration for simulation testing
-- Kalman Filter for IMU + encoder sensor fusion
-- Extended Kalman Filter fusing RealSense depth + odometry
-- Wireless real-time telemetry dashboard
-- Full MPC deployment replacing PID on competition build
-
 ---
 
 ## 📚 References
@@ -499,7 +473,7 @@ This is an active competition project. Contributions and suggestions are welcome
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — open for learning, research, and future ITC Robocon teams.
+This project is licensed under the **ITC License** — open for learning, research, and future ITC Robocon teams.
 
 ---
 
