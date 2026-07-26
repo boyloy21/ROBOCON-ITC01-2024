@@ -55,22 +55,6 @@
 
 The game field is divided into **3 Areas**, each robot performing a unique role in the rice farming cycle.
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                     GAME FIELD LAYOUT                        │
-│                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐      │
-│  │   AREA 1     │  │   AREA 2     │  │   AREA 3     │      │
-│  │  🌱 Planting  │  │ 🌾 Harvesting│  │ 🏚 Storage   │      │
-│  │              │  │              │  │              │      │
-│  │ Plant seedlings│ Harvest paddy │ Store in silos │      │
-│  │  (PVC pipes) │  │    rice      │  │              │      │
-│  └──────────────┘  └──────────────┘  └──────────────┘      │
-│                                                              │
-│  MR1 operates in Area 1 & 2      MR2 operates in Area 2 & 3 │
-└──────────────────────────────────────────────────────────────┘
-```
-
 <p align="center">
   <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/assets/133625347/18b4a525-6631-478e-ad32-5df222f335cd" alt="ABU Robocon 2024 Game Field — Harvest Day" width="800"/>
   <br>
