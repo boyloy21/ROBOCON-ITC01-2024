@@ -56,7 +56,7 @@
 The game field is divided into **3 Areas**, each robot performing a unique role in the rice farming cycle.
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/assets/133625347/18b4a525-6631-478e-ad32-5df222f335cd" alt="ABU Robocon 2024 Game Field — Harvest Day" width="800"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/assets/133625347/18b4a525-6631-478e-ad32-5df222f335cd" alt="ABU Robocon 2024 Game Field — Harvest Day" width="900"/>
   <br>
   <em>Official "Harvest Day" game field layout</em>
 </p>
@@ -105,7 +105,7 @@ MR1 has been developed in **two drive configurations**:
 | Communication | CAN Bus (inter-board) + RC Receiver |
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotinTopview.jpg?raw=true" alt="MR1 V1 Top View" width="500"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotinTopview.jpg?raw=true" alt="MR1 V1 Top View" width="800"/>
   <br>
   <em>MR1 — V1 (4-Wheel Mecanum Drive) — Top View</em>
 </p>
@@ -122,7 +122,7 @@ MR1 has been developed in **two drive configurations**:
 | Communication | CAN Bus (inter-board) + RC Receiver |
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotFrontView.jpg?raw=true" alt="MR1 V2 Side View" width="500"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotFrontView.jpg?raw=true" alt="MR1 V2 Front View" width="800"/>
   <br>
   <em>MR1 — V2 (4-Wheel Omni Drive) — Side View</em>
 </p>
@@ -434,7 +434,7 @@ Flash:  Run → Debug (F11) or Run → Run (Ctrl+F11)
 **Team ITC01 — Institute of Technology of Cambodia**
 
 <p align="center">
-  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/assets/133625347/5d0f267c-2f1e-41d7-80c9-47943a025e90" alt="Team ITC01 — Robocon 2024" width="700"/>
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/assets/133625347/5d0f267c-2f1e-41d7-80c9-47943a025e90" alt="Team ITC01 — Robocon 2024" width="800"/>
   <br>
   <em>Team ITC01 at ABU Robocon 2024 "Harvest Day"</em>
 </p>
