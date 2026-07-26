@@ -104,6 +104,11 @@ MR1 has been developed in **two drive configurations**:
 | Motor Type | DC Brushed Motor with Encoder |
 | Communication | CAN Bus (inter-board) + RC Receiver |
 
+<p align="center">
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotinTopview.jpg?raw=true" alt="MR1 V1 Top View" width="500"/>
+  <br>
+  <em>MR1 — V1 (4-Wheel Mecanum Drive) — Top View</em>
+</p>
 
 #### MR1 — V2: 4-Wheel Omni Drive (Alternate)
 
@@ -116,6 +121,11 @@ MR1 has been developed in **two drive configurations**:
 | Motor Type | DC Brushed Motor with Encoder |
 | Communication | CAN Bus (inter-board) + RC Receiver |
 
+<p align="center">
+  <img src="https://github.com/boyloy21/ROBOCON-ITC01-2024/blob/main/Docs/RobotFrontView.jpg?raw=true" alt="MR1 V2 Side View" width="500"/>
+  <br>
+  <em>MR1 — V2 (4-Wheel Omni Drive) — Side View</em>
+</p>
 ---
 
 #### MR1 Mechanical Mechanisms
